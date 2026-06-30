@@ -1,1 +1,153 @@
-cmVxdWlyZSgnZG90ZW52JykuY29uZmlnKCk7CmNvbnN0IGV4cHJlc3MgPSByZXF1aXJlKCdleHByZXNzJyk7CmNvbnN0IHNlc3Npb24gPSByZXF1aXJlKCdleHByZXNzLXNlc3Npb24nKTsKY29uc3QgaGVsbWV0ID0gcmVxdWlyZSgnaGVsbWV0Jyk7CmNvbnN0IHJhdGVMaW1pdCA9IHJlcXVpcmUoJ2V4cHJlc3MtcmF0ZS1saW1pdCcpOwpjb25zdCBmbGFzaCA9IHJlcXVpcmUoJ2Nvbm5lY3QtZmxhc2gnKTsKY29uc3QgcGF0aCA9IHJlcXVpcmUoJ3BhdGgnKTsKY29uc3QgaHR0cCA9IHJlcXVpcmUoJ2h0dHAnKTsKY29uc3QgeyBXZWJTb2NrZXRTZXJ2ZXIgfSA9IHJlcXVpcmUoJ3dzJyk7Cgpjb25zdCB7IGdldERiLCBzYXZlTm93IH0gPSByZXF1aXJlKCcuL2RiL2RhdGFiYXNlJyk7Cgpjb25zdCBhcHAgPSBleHByZXNzKCk7CmNvbnN0IHNlcnZlciA9IGh0dHAuY3JlYXRlU2VydmVyKGFwcCk7CgovLyBXZWJTb2NrZXQgc2VydmVyIGZvciByZWFsLXRpbWUgb3JkZXJzCmNvbnN0IHdzcyA9IG5ldyBXZWJTb2NrZXRTZXJ2ZXIoeyBzZXJ2ZXIsIHBhdGg6ICcvd3Mvb3JkZXJzJyB9KTsKCndzcy5vbignY29ubmVjdGlvbicsICh3cykgPT4gewogIGNvbnNvbGUubG9nKCdBZG1pbiBXZWJTb2NrZXQgY29ubmVjdGVkJyk7CiAgd3Mub24oJ2Nsb3NlJywgKCkgPT4gY29uc29sZS5sb2coJ0FkbWluIFdlYlNvY2tldCBkaXNjb25uZWN0ZWQnKSk7Cn0pOwoKZnVuY3Rpb24gYnJvYWRjYXN0T3JkZXIoZGF0YSkgewogIHdzcy5jbGllbnRzLmZvckVhY2goKGNsaWVudCkgPT4gewogICAgaWYgKGNsaWVudC5yZWFkeVN0YXRlID09PSAxKSB7CiAgICAgIGNsaWVudC5zZW5kKEpTT04uc3RyaW5naWZ5KGRhdGEpKTsKICAgIH0KICB9KTsKfQoKLy8gVmlldyBlbmdpbmUKYXBwLnNldCgndmlldyBlbmdpbmUnLCAnZWpzJyk7CmFwcC5zZXQoJ3ZpZXdzJywgcGF0aC5qb2luKF9fZGlybmFtZSwgJ3ZpZXdzJykpOwoKLy8gU2VjdXJpdHkKYXBwLnVzZShoZWxtZXQoewogIGNvbnRlbnRTZWN1cml0eVBvbGljeTogZmFsc2UsCiAgY3Jvc3NPcmlnaW5FbWJlZGRlclBvbGljeTogZmFsc2UsCn0pKTsKCi8vIFN0YXRpYyBmaWxlcwphcHAudXNlKGV4cHJlc3Muc3RhdGljKHBhdGguam9pbihfX2Rpcm5hbWUsICdwdWJsaWMnKSkpOwphcHAudXNlKCcvdXBsb2FkcycsIGV4cHJlc3Muc3RhdGljKHBhdGguam9pbihfX2Rpcm5hbWUsICdwdWJsaWMvdXBsb2FkcycpKSk7CgovLyBCb2R5IHBhcnNpbmcKYXBwLnVzZShleHByZXNzLmpzb24oKSk7CmFwcC51c2UoZXhwcmVzcy51cmxlbmNvZGVkKHsgZXh0ZW5kZWQ6IHRydWUgfSkpOwoKLy8gU2Vzc2lvbgphcHAudXNlKHNlc3Npb24oewogIHNlY3JldDogcHJvY2Vzcy5lbnYuU0VTU0lPTl9TRUNSRVQgfHwgJ3N0ZWxsYS1iaXN0cm8tc2VjcmV0JywKICByZXNhdmU6IGZhbHNlLAogIHNhdmVVbmluaXRpYWxpemVkOiBmYWxzZSwKICBjb29raWU6IHsKICAgIGh0dHBPbmx5OiB0cnVlLAogICAgc2FtZVNpdGU6ICdsYXgnLAogICAgbWF4QWdlOiA4ICogNjAgKiA2MCAqIDEwMDAsIC8vIDggaG91cnMKICB9LAp9KSk7CgovLyBGbGFzaCBtZXNzYWdlcwphcHAudXNlKGZsYXNoKCkpOwoKYXBwLnVzZSgocmVxLCByZXMsIG5leHQpID0+IHsKICByZXMubG9jYWxzLnN1Y2Nlc3NfbXNnID0gcmVxLmZsYXNoKCdzdWNjZXNzX21zZycpOwogIHJlcy5sb2NhbHMuZXJyb3JfbXNnID0gcmVxLmZsYXNoKCdlcnJvcl9tc2cnKTsKICByZXMubG9jYWxzLnNlc3Npb24gPSByZXEuc2Vzc2lvbjsKICBuZXh0KCk7Cn0pOwoKLy8gUmF0ZSBsaW1pdGluZwpjb25zdCBwdWJsaWNMaW1pdGVyID0gcmF0ZUxpbWl0KHsKICB3aW5kb3dNczogMTUgKiA2MCAqIDEwMDAsCiAgbWF4OiAxMDAsCiAgbWVzc2FnZTogeyBlcnJvcjogJ1RvbyBtYW55IHJlcXVlc3RzLCBwbGVhc2UgdHJ5IGFnYWluIGxhdGVyLicgfSwKfSk7Cgpjb25zdCBvcmRlckxpbWl0ZXIgPSByYXRlTGltaXQoewogIHdpbmRvd01zOiAxNSAqIDYwICogMTAwMCwKICBtYXg6IDIwLAogIG1lc3NhZ2U6IHsgZXJyb3I6ICdUb28gbWFueSBvcmRlcnMsIHBsZWFzZSB0cnkgYWdhaW4gbGF0ZXIuJyB9LAp9KTsKCmFwcC51c2UoJy9hcGkvJywgcHVibGljTGltaXRlcik7CmFwcC51c2UoJy9hcGkvb3JkZXJzJywgb3JkZXJMaW1pdGVyKTsKCi8vIEluaXRpYWxpemUgREIKbGV0IGRiUmVhZHkgPSBmYWxzZTsKYXBwLnVzZShhc3luYyAocmVxLCByZXMsIG5leHQpID0+IHsKICBpZiAoIWRiUmVhZHkpIHsKICAgIHRyeSB7CiAgICAgIGF3YWl0IGdldERiKCk7CiAgICAgIGRiUmVhZHkgPSB0cnVlOwogICAgICBjb25zb2xlLmxvZygnRGF0YWJhc2UgaW5pdGlhbGl6ZWQnKTsKICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgY29uc29sZS5lcnJvcignREIgaW5pdCBlcnJvcjonLCBlKTsKICAgIH0KICB9CiAgbmV4dCgpOwp9KTsKCi8vIE1ha2UgYnJvYWRjYXN0T3JkZXIgYXZhaWxhYmxlIHRvIHJvdXRlcwphcHAudXNlKChyZXEsIHJlcywgbmV4dCkgPT4gewogIHJlcS5icm9hZGNhc3RPcmRlciA9IGJyb2FkY2FzdE9yZGVyOwogIG5leHQoKTsKfSk7CgovLyBNYWtlIGJyb2FkY2FzdE9yZGVyIGF2YWlsYWJsZSB2aWEgbW9kdWxlIHJlZmVyZW5jZSBmb3Igcm91dGVzIHRoYXQgbmVlZCBpdAphcHAuYnJvYWRjYXN0T3JkZXIgPSBicm9hZGNhc3RPcmRlcjsKCi8vIFJvdXRlcwpjb25zdCBwdWJsaWNSb3V0ZXMgPSByZXF1aXJlKCcuL3JvdXRlcy9wdWJsaWMnKTsKY29uc3QgYXBpUm91dGVzID0gcmVxdWlyZSgnLi9yb3V0ZXMvYXBpJyk7CmNvbnN0IGFkbWluUm91dGVzID0gcmVxdWlyZSgnLi9yb3V0ZXMvYWRtaW4nKTsKCmFwcC51c2UoJy8nLCBwdWJsaWNSb3V0ZXMpOwphcHAudXNlKCcvYXBpJywgYXBpUm91dGVzKTsKYXBwLnVzZSgnL3N0ZWxsYS1jb250cm9sJywgYWRtaW5Sb3V0ZXMpOwoKLy8gNDA0IGhhbmRsZXIKYXBwLnVzZSgocmVxLCByZXMpID0+IHsKICBpZiAocmVxLnBhdGguc3RhcnRzV2l0aCgnL3N0ZWxsYS1jb250cm9sJykpIHsKICAgIHJldHVybiByZXMuc3RhdHVzKDQwNCkucmVuZGVyKCdhZG1pbi9sb2dpbicsIHsgcGFnZVRpdGxlOiAnTG9naW4nLCBlcnJvcl9tc2c6IFsnUGFnZSBub3QgZm91bmQnXSB9KTsKICB9CiAgcmVzLnN0YXR1cyg0MDQpLnJlbmRlcignTm90Rm91bmQnLCB7IHBhZ2VUaXRsZTogJzQwNCAtIE5vdCBGb3VuZCcsIHNldHRpbmdzOiB7fSB9KTsKfSk7CgovLyBFcnJvciBoYW5kbGVyCmFwcC51c2UoKGVyciwgcmVxLCByZXMsIG5leHQpID0+IHsKICBjb25zb2xlLmVycm9yKGVyci5zdGFjayk7CiAgcmVzLnN0YXR1cyg1MDApLmpzb24oeyBlcnJvcjogcHJvY2Vzcy5lbnYuTk9ERV9FTlYgPT09ICdwcm9kdWN0aW9uJyA/ICdJbnRlcm5hbCBzZXJ2ZXIgZXJyb3InIDogZXJyLm1lc3NhZ2UgfSk7Cn0pOwoKY29uc3QgUE9SVCA9IHByb2Nlc3MuZW52LlBPUlQgfHwgMzAwMDsKc2VydmVyLmxpc3RlbihQT1JULCAoKSA9PiB7CiAgY29uc29sZS5sb2coYFN0ZWxsYSBCaXN0cm8gcnVubmluZyBvbiBodHRwOi8vbG9jYWxob3N0OiR7UE9SVH1gKTsKICBjb25zb2xlLmxvZyhgQWRtaW4gcGFuZWw6IGh0dHA6Ly9sb2NhbGhvc3Q6JHtQT1JUfS9zdGVsbGEtY29udHJvbGApOwp9KTsKCi8vIEdyYWNlZnVsIHNodXRkb3duOiBwZXJzaXN0IGRhdGFiYXNlIGJlZm9yZSBleGl0CnByb2Nlc3Mub24oJ1NJR0lOVCcsICgpID0+IHsKICBjb25zb2xlLmxvZygnU2h1dHRpbmcgZG93biBncmFjZWZ1bGx5Li4uJyk7CiAgc2F2ZU5vdygpOwogIHByb2Nlc3MuZXhpdCgwKTsKfSk7CnByb2Nlc3Mub24oJ1NJR1RFUk0nLCAoKSA9PiB7CiAgY29uc29sZS5sb2coJ1NodXR0aW5nIGRvd24gZ3JhY2VmdWxseS4uLicpOwogIHNhdmVOb3coKTsKICBwcm9jZXNzLmV4aXQoMCk7Cn0pOwoKbW9kdWxlLmV4cG9ydHMgPSB7IGFwcCwgc2VydmVyLCBicm9hZGNhc3RPcmRlciB9Owo=
+require('dotenv').config();
+const express = require('express');
+const session = require('express-session');
+const helmet = require('helmet');
+const rateLimit = require('express-rate-limit');
+const flash = require('connect-flash');
+const path = require('path');
+const http = require('http');
+const { WebSocketServer } = require('ws');
+
+const { getDb, saveNow } = require('./db/database');
+
+const app = express();
+const server = http.createServer(app);
+
+// WebSocket server for real-time orders
+const wss = new WebSocketServer({ server, path: '/ws/orders' });
+
+wss.on('connection', (ws) => {
+  console.log('Admin WebSocket connected');
+  ws.on('close', () => console.log('Admin WebSocket disconnected'));
+});
+
+function broadcastOrder(data) {
+  wss.clients.forEach((client) => {
+    if (client.readyState === 1) {
+      client.send(JSON.stringify(data));
+    }
+  });
+}
+
+// View engine
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
+// Security
+app.use(helmet({
+  contentSecurityPolicy: false,
+  crossOriginEmbedderPolicy: false,
+}));
+
+// Static files
+app.use(express.static(path.join(__dirname, 'public')));
+app.use('/uploads', express.static(path.join(__dirname, 'public/uploads')));
+
+// Body parsing
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+// Session
+app.use(session({
+  secret: process.env.SESSION_SECRET || 'stella-bistro-secret',
+  resave: false,
+  saveUninitialized: false,
+  cookie: {
+    httpOnly: true,
+    sameSite: 'lax',
+    maxAge: 8 * 60 * 60 * 1000, // 8 hours
+  },
+}));
+
+// Flash messages
+app.use(flash());
+
+app.use((req, res, next) => {
+  res.locals.success_msg = req.flash('success_msg');
+  res.locals.error_msg = req.flash('error_msg');
+  res.locals.session = req.session;
+  next();
+});
+
+// Rate limiting
+const publicLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100,
+  message: { error: 'Too many requests, please try again later.' },
+});
+
+const orderLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 20,
+  message: { error: 'Too many orders, please try again later.' },
+});
+
+app.use('/api/', publicLimiter);
+app.use('/api/orders', orderLimiter);
+
+// Initialize DB
+let dbReady = false;
+app.use(async (req, res, next) => {
+  if (!dbReady) {
+    try {
+      await getDb();
+      dbReady = true;
+      console.log('Database initialized');
+    } catch (e) {
+      console.error('DB init error:', e);
+    }
+  }
+  next();
+});
+
+// Make broadcastOrder available to routes
+app.use((req, res, next) => {
+  req.broadcastOrder = broadcastOrder;
+  next();
+});
+
+// Make broadcastOrder available via module reference for routes that need it
+app.broadcastOrder = broadcastOrder;
+
+// Routes
+const publicRoutes = require('./routes/public');
+const apiRoutes = require('./routes/api');
+const adminRoutes = require('./routes/admin');
+
+app.use('/', publicRoutes);
+app.use('/api', apiRoutes);
+app.use('/stella-control', adminRoutes);
+
+// 404 handler
+app.use((req, res) => {
+  if (req.path.startsWith('/stella-control')) {
+    return res.status(404).render('admin/login', { pageTitle: 'Login', error_msg: ['Page not found'] });
+  }
+  res.status(404).render('NotFound', { pageTitle: '404 - Not Found', settings: {} });
+});
+
+// Error handler
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ error: process.env.NODE_ENV === 'production' ? 'Internal server error' : err.message });
+});
+
+const PORT = process.env.PORT || 3000;
+server.listen(PORT, () => {
+  console.log(`Stella Bistro running on http://localhost:${PORT}`);
+  console.log(`Admin panel: http://localhost:${PORT}/stella-control`);
+});
+
+// Graceful shutdown: persist database before exit
+process.on('SIGINT', () => {
+  console.log('Shutting down gracefully...');
+  saveNow();
+  process.exit(0);
+});
+process.on('SIGTERM', () => {
+  console.log('Shutting down gracefully...');
+  saveNow();
+  process.exit(0);
+});
+
+module.exports = { app, server, broadcastOrder };
