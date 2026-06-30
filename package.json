@@ -1,1 +1,24 @@
-ewogICJuYW1lIjogInN0ZWxsYS1iaXN0cm8iLAogICJ2ZXJzaW9uIjogIjEuMC4wIiwKICAiZGVzY3JpcHRpb24iOiAiU3RlbGxhIEJpc3RybyDigJQgQ29tcGxldGUgcmVzdGF1cmFudCB3ZWJzaXRlIHdpdGggb3JkZXJpbmcgc3lzdGVtIGFuZCBhZG1pbiBwYW5lbCIsCiAgIm1haW4iOiAiYXBwLmpzIiwKICAic2NyaXB0cyI6IHsKICAgICJzdGFydCI6ICJub2RlIGFwcC5qcyIsCiAgICAiZGV2IjogIm5vZGUgLS13YXRjaCBhcHAuanMiCiAgfSwKICAiZGVwZW5kZW5jaWVzIjogewogICAgImJjcnlwdCI6ICJeNS4xLjEiLAogICAgInNxbC5qcyI6ICJeMS4xMS4wIiwKICAgICJjb25uZWN0LWZsYXNoIjogIl4wLjEuMSIsCiAgICAiZG90ZW52IjogIl4xNi40LjciLAogICAgImVqcyI6ICJeMy4xLjEwIiwKICAgICJleHByZXNzIjogIl40LjIxLjEiLAogICAgImV4cHJlc3MtcmF0ZS1saW1pdCI6ICJeNy40LjEiLAogICAgImV4cHJlc3Mtc2Vzc2lvbiI6ICJeMS4xOC4xIiwKICAgICJleHByZXNzLXZhbGlkYXRvciI6ICJeNy4yLjEiLAogICAgImhlbG1ldCI6ICJeOC4wLjAiLAogICAgIm11bHRlciI6ICJeMS40LjUtbHRzLjEiLAogICAgIndzIjogIl44LjE4LjAiCiAgfQp9Cg==
+{
+  "name": "stella-bistro",
+  "version": "1.0.0",
+  "description": "Stella Bistro — Complete restaurant website with ordering system and admin panel",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node --watch app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "sql.js": "^1.11.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-rate-limit": "^7.4.1",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "multer": "^1.4.5-lts.1",
+    "ws": "^8.18.0"
+  }
+}
