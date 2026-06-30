@@ -1,1 +1,327 @@
-Ly8gU3RlbGxhIEJpc3RybyDigJQgQ2hlY2tvdXQgUGFnZSBKYXZhU2NyaXB0Cgpkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4gewoKICBjb25zdCBmb3JtID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NoZWNrb3V0Rm9ybScpOwogIGlmICghZm9ybSkgcmV0dXJuOwoKICBjb25zdCBpdGVtcyA9IENhcnQuZ2V0SXRlbXMoKTsKICBjb25zdCBzdWJ0b3RhbCA9IENhcnQuZ2V0U3VidG90YWwoKTsKCiAgLy8gUmVkaXJlY3QgaWYgY2FydCBlbXB0eQogIGlmIChpdGVtcy5sZW5ndGggPT09IDApIHsKICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gJy9tZW51JzsKICAgIHJldHVybjsKICB9CgogIC8vIExvYWQgcGF5bWVudCBpbmZvIGZyb20gQVBJCiAgbGV0IHBheW1lbnRJbmZvID0gbnVsbDsKICBsZXQgZGVsaXZlcnlGZWUgPSAxMDA7CiAgbGV0IGFwcGxpZWREaXNjb3VudCA9IDA7CiAgbGV0IGFwcGxpZWRDb2RlID0gJyc7CgogIC8vIERpc3BsYXkgb3JkZXIgc3VtbWFyeQogIGZ1bmN0aW9uIHJlbmRlclN1bW1hcnkoKSB7CiAgICBjb25zdCBjb250YWluZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY2hlY2tvdXRJdGVtcycpOwogICAgaWYgKCFjb250YWluZXIpIHJldHVybjsKCiAgICBsZXQgaHRtbCA9ICcnOwogICAgaXRlbXMuZm9yRWFjaChpdGVtID0+IHsKICAgICAgY29uc3QgaW1nSHRtbCA9IGl0ZW0uaW1hZ2UKICAgICAgICA/IGA8aW1nIHNyYz0iJHtpdGVtLmltYWdlfSIgYWx0PSIke2l0ZW0ubmFtZX0iIGNsYXNzPSJjaGVja291dC1zdW1tYXJ5X19pdGVtLWltZyI+YAogICAgICAgIDogYDxkaXYgY2xhc3M9ImNoZWNrb3V0LXN1bW1hcnlfX2l0ZW0taW1nIiBzdHlsZT0iYmFja2dyb3VuZDojMUExQTFBO2Rpc3BsYXk6ZmxleDthbGlnbi1pdGVtczpjZW50ZXI7anVzdGlmeS1jb250ZW50OmNlbnRlcjtmb250LXNpemU6MTZweDtjb2xvcjp2YXIoLS1nb2xkKTsiPiR7aXRlbS5uYW1lLmNoYXJBdCgwKX08L2Rpdj5gOwogICAgICBodG1sICs9IGAKICAgICAgICA8ZGl2IGNsYXNzPSJjaGVja291dC1zdW1tYXJ5X19pdGVtIj4KICAgICAgICAgICR7aW1nSHRtbH0KICAgICAgICAgIDxkaXYgY2xhc3M9ImNoZWNrb3V0LXN1bW1hcnlfX2l0ZW0taW5mbyI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNoZWNrb3V0LXN1bW1hcnlfX2l0ZW0tbmFtZSI+JHtpdGVtLm5hbWV9PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNoZWNrb3V0LXN1bW1hcnlfX2l0ZW0tcXR5Ij5RdHk6ICR7aXRlbS5xdWFudGl0eX08L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iY2hlY2tvdXQtc3VtbWFyeV9faXRlbS1wcmljZSI+UnMuICR7TWF0aC5yb3VuZChpdGVtLnByaWNlICogaXRlbS5xdWFudGl0eSl9PC9kaXY+CiAgICAgICAgPC9kaXY+YDsKICAgIH0pOwogICAgY29udGFpbmVyLmlubmVySFRNTCA9IGh0bWw7CgogICAgdXBkYXRlVG90YWxzKCk7CiAgfQoKICBmdW5jdGlvbiB1cGRhdGVUb3RhbHMoKSB7CiAgICBjb25zdCBzdWIgPSBzdWJ0b3RhbDsKICAgIGNvbnN0IHRvdGFsID0gTWF0aC5tYXgoMCwgc3ViICsgZGVsaXZlcnlGZWUgLSBhcHBsaWVkRGlzY291bnQpOwoKICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjaGVja291dFN1YnRvdGFsJykudGV4dENvbnRlbnQgPSBgUnMuICR7TWF0aC5yb3VuZChzdWIpfWA7CiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY2hlY2tvdXREZWxpdmVyeUZlZScpLnRleHRDb250ZW50ID0gYFJzLiAke2RlbGl2ZXJ5RmVlfWA7CgogICAgY29uc3QgZGlzY291bnRSb3cgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY2hlY2tvdXREaXNjb3VudFJvdycpOwogICAgaWYgKGFwcGxpZWREaXNjb3VudCA+IDApIHsKICAgICAgZGlzY291bnRSb3cuc3R5bGUuZGlzcGxheSA9ICdmbGV4JzsKICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2NoZWNrb3V0RGlzY291bnQnKS50ZXh0Q29udGVudCA9IGAtUnMuICR7TWF0aC5yb3VuZChhcHBsaWVkRGlzY291bnQpfWA7CiAgICB9IGVsc2UgewogICAgICBkaXNjb3VudFJvdy5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnOwogICAgfQoKICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjaGVja291dFRvdGFsJykudGV4dENvbnRlbnQgPSBgUnMuICR7TWF0aC5yb3VuZCh0b3RhbCl9YDsKCiAgICAvLyBVcGRhdGUgaGlkZGVuIGZpZWxkcwogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2l0ZW1zSnNvbklucHV0JykudmFsdWUgPSBKU09OLnN0cmluZ2lmeShpdGVtcyk7CiAgICBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc3VidG90YWxJbnB1dCcpLnZhbHVlID0gc3ViOwogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2RlbGl2ZXJ5RmVlSW5wdXQnKS52YWx1ZSA9IGRlbGl2ZXJ5RmVlOwogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Byb21vQ29kZUlucHV0JykudmFsdWUgPSBhcHBsaWVkQ29kZTsKICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwcm9tb0Rpc2NvdW50SW5wdXQnKS52YWx1ZSA9IGFwcGxpZWREaXNjb3VudDsKICB9CgogIC8vIFJlbmRlciBwYXltZW50IG1ldGhvZHMKICBmdW5jdGlvbiByZW5kZXJQYXltZW50TWV0aG9kcyhpbmZvKSB7CiAgICBjb25zdCBjb250YWluZXIgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgncGF5bWVudE1ldGhvZHMnKTsKICAgIGlmICghY29udGFpbmVyKSByZXR1cm47CgogICAgY29uc3QgdG90YWwgPSBNYXRoLm1heCgwLCBzdWJ0b3RhbCArIGRlbGl2ZXJ5RmVlIC0gYXBwbGllZERpc2NvdW50KTsKICAgIGNvbnN0IG1ldGhvZHMgPSBbCiAgICAgIHsKICAgICAgICBpZDogJ2phenpjYXNoJywKICAgICAgICBsYWJlbDogJ0phenpDYXNoJywKICAgICAgICBpY29uOiAn8J+foicsCiAgICAgICAgZGVzYzogJ01vYmlsZSBBY2NvdW50IFRyYW5zZmVyJywKICAgICAgICBlbmFibGVkOiBpbmZvLmphenpjYXNoLmVuYWJsZWQsCiAgICAgICAgZGV0YWlsc0h0bWw6IGAKICAgICAgICAgIDxwPlNlbmQgPHN0cm9uZz5Scy4gJHtNYXRoLnJvdW5kKHRvdGFsKX08L3N0cm9uZz4gdG86PC9wPgogICAgICAgICAgPHA+PHN0cm9uZz5OdW1iZXI6PC9zdHJvbmc+ICR7aW5mby5qYXp6Y2FzaC5udW1iZXJ9PC9wPgogICAgICAgICAgPHA+PHN0cm9uZz5BY2NvdW50IE5hbWU6PC9zdHJvbmc+ICR7aW5mby5qYXp6Y2FzaC5uYW1lfTwvcD4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZ3JvdXAiIHN0eWxlPSJtYXJnaW4tdG9wOjhweDsiPgogICAgICAgICAgICA8bGFiZWw+VHJhbnNhY3Rpb24gSUQgKjwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBjbGFzcz0iaW5wdXQgdHhuLWlucHV0IiBuYW1lPSJ0eG5famF6emNhc2giIHJlcXVpcmVkPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIiBzdHlsZT0ibWFyZ2luLXRvcDo4cHg7Ij4KICAgICAgICAgICAgPGxhYmVsPlVwbG9hZCBQYXltZW50IFNjcmVlbnNob3QgKG9wdGlvbmFsKTwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJmaWxlIiBjbGFzcz0iaW5wdXQgc2NyZWVuc2hvdC1pbnB1dCIgYWNjZXB0PSJpbWFnZS8qIj4KICAgICAgICAgIDwvZGl2PmAKICAgICAgfSwKICAgICAgewogICAgICAgIGlkOiAnZWFzeXBhaXNhJywKICAgICAgICBsYWJlbDogJ0Vhc3lQYWlzYScsCiAgICAgICAgaWNvbjogJ/Cfn6AnLAogICAgICAgIGRlc2M6ICdNb2JpbGUgQWNjb3VudCBUcmFuc2ZlcicsCiAgICAgICAgZW5hYmxlZDogaW5mby5lYXN5cGFpc2EuZW5hYmxlZCwKICAgICAgICBkZXRhaWxzSHRtbDogYAogICAgICAgICAgPHA+U2VuZCA8c3Ryb25nPlJzLiAke01hdGgucm91bmQodG90YWwpfTwvc3Ryb25nPiB0bzo8L3A+CiAgICAgICAgICA8cD48c3Ryb25nPk51bWJlcjo8L3N0cm9uZz4gJHtpbmZvLmVhc3lwYWlzYS5udW1iZXJ9PC9wPgogICAgICAgICAgPHA+PHN0cm9uZz5BY2NvdW50IE5hbWU6PC9zdHJvbmc+ICR7aW5mby5lYXN5cGFpc2EubmFtZX08L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIiBzdHlsZT0ibWFyZ2luLXRvcDo4cHg7Ij4KICAgICAgICAgICAgPGxhYmVsPlRyYW5zYWN0aW9uIElEICo8L2xhYmVsPgogICAgICAgICAgICA8aW5wdXQgdHlwZT0idGV4dCIgY2xhc3M9ImlucHV0IHR4bi1pbnB1dCIgbmFtZT0idHhuX2Vhc3lwYWlzYSIgcmVxdWlyZWQ+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZ3JvdXAiIHN0eWxlPSJtYXJnaW4tdG9wOjhweDsiPgogICAgICAgICAgICA8bGFiZWw+VXBsb2FkIFBheW1lbnQgU2NyZWVuc2hvdCAob3B0aW9uYWwpPC9sYWJlbD4KICAgICAgICAgICAgPGlucHV0IHR5cGU9ImZpbGUiIGNsYXNzPSJpbnB1dCBzY3JlZW5zaG90LWlucHV0IiBhY2NlcHQ9ImltYWdlLyoiPgogICAgICAgICAgPC9kaXY+YAogICAgICB9LAogICAgICB7CiAgICAgICAgaWQ6ICdtZWV6YW4nLAogICAgICAgIGxhYmVsOiAnTWVlemFuIEJhbmsnLAogICAgICAgIGljb246ICfwn5S1JywKICAgICAgICBkZXNjOiAnQmFuayBUcmFuc2ZlcicsCiAgICAgICAgZW5hYmxlZDogaW5mby5tZWV6YW4uZW5hYmxlZCwKICAgICAgICBkZXRhaWxzSHRtbDogYAogICAgICAgICAgPHAgc3R5bGU9IndoaXRlLXNwYWNlOnByZS1saW5lOyI+JHtpbmZvLm1lZXphbi5kZXRhaWxzfTwvcD4KICAgICAgICAgIDxkaXYgY2xhc3M9ImZvcm0tZ3JvdXAiIHN0eWxlPSJtYXJnaW4tdG9wOjhweDsiPgogICAgICAgICAgICA8bGFiZWw+VHJhbnNhY3Rpb24gSUQgLyBSZWZlcmVuY2UgKjwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBjbGFzcz0iaW5wdXQgdHhuLWlucHV0IiBuYW1lPSJ0eG5fbWVlemFuIiByZXF1aXJlZD4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1ncm91cCIgc3R5bGU9Im1hcmdpbi10b3A6OHB4OyI+CiAgICAgICAgICAgIDxsYWJlbD5VcGxvYWQgUGF5bWVudCBTY3JlZW5zaG90IChvcHRpb25hbCk8L2xhYmVsPgogICAgICAgICAgICA8aW5wdXQgdHlwZT0iZmlsZSIgY2xhc3M9ImlucHV0IHNjcmVlbnNob3QtaW5wdXQiIGFjY2VwdD0iaW1hZ2UvKiI+CiAgICAgICAgICA8L2Rpdj5gCiAgICAgIH0sCiAgICAgIHsKICAgICAgICBpZDogJ2hibCcsCiAgICAgICAgbGFiZWw6ICdIQkwgLyBCYW5rIFRyYW5zZmVyJywKICAgICAgICBpY29uOiAn8J+UtCcsCiAgICAgICAgZGVzYzogJ09ubGluZSBCYW5raW5nIC8gSW50ZXJiYW5rJywKICAgICAgICBlbmFibGVkOiBpbmZvLmhibC5lbmFibGVkLAogICAgICAgIGRldGFpbHNIdG1sOiBgCiAgICAgICAgICA8cCBzdHlsZT0id2hpdGUtc3BhY2U6cHJlLWxpbmU7Ij4ke2luZm8uaGJsLmRldGFpbHN9PC9wPgogICAgICAgICAgPGRpdiBjbGFzcz0iZm9ybS1ncm91cCIgc3R5bGU9Im1hcmdpbi10b3A6OHB4OyI+CiAgICAgICAgICAgIDxsYWJlbD5UcmFuc2FjdGlvbiBJRCAvIFJlZmVyZW5jZSAqPC9sYWJlbD4KICAgICAgICAgICAgPGlucHV0IHR5cGU9InRleHQiIGNsYXNzPSJpbnB1dCB0eG4taW5wdXQiIG5hbWU9InR4bl9oYmwiIHJlcXVpcmVkPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmb3JtLWdyb3VwIiBzdHlsZT0ibWFyZ2luLXRvcDo4cHg7Ij4KICAgICAgICAgICAgPGxhYmVsPlVwbG9hZCBQYXltZW50IFNjcmVlbnNob3QgKG9wdGlvbmFsKTwvbGFiZWw+CiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJmaWxlIiBjbGFzcz0iaW5wdXQgc2NyZWVuc2hvdC1pbnB1dCIgYWNjZXB0PSJpbWFnZS8qIj4KICAgICAgICAgIDwvZGl2PmAKICAgICAgfSwKICAgICAgewogICAgICAgIGlkOiAnY29kJywKICAgICAgICBsYWJlbDogJ0Nhc2ggb24gRGVsaXZlcnknLAogICAgICAgIGljb246ICfwn5K1JywKICAgICAgICBkZXNjOiAnUGF5IHdoZW4geW91ciBvcmRlciBhcnJpdmVzJywKICAgICAgICBlbmFibGVkOiBpbmZvLmNvZC5lbmFibGVkLAogICAgICAgIGRldGFpbHNIdG1sOiAnJwogICAgICB9CiAgICBdOwoKICAgIGxldCBodG1sID0gJyc7CiAgICBtZXRob2RzLmZvckVhY2goKG0sIGlkeCkgPT4gewogICAgICBjb25zdCBkaXNhYmxlZCA9ICFtLmVuYWJsZWQ7CiAgICAgIGh0bWwgKz0gYAogICAgICAgIDxkaXYgY2xhc3M9InBheW1lbnQtbWV0aG9kICR7ZGlzYWJsZWQgPyAncGF5bWVudC1tZXRob2QtLWRpc2FibGVkJyA6ICcnfSIgZGF0YS1tZXRob2Q9IiR7bS5pZH0iIG9uY2xpY2s9IiR7ZGlzYWJsZWQgPyAnJyA6IGBzZWxlY3RQYXltZW50KCcke20uaWR9JylgfSI+CiAgICAgICAgICA8c3BhbiBzdHlsZT0iZm9udC1zaXplOjIwcHg7Ij4ke20uaWNvbn08L3NwYW4+CiAgICAgICAgICA8ZGl2IHN0eWxlPSJmbGV4OjE7Ij4KICAgICAgICAgICAgPHN0cm9uZz4ke20ubGFiZWx9PC9zdHJvbmc+CiAgICAgICAgICAgIDxkaXYgc3R5bGU9ImZvbnQtc2l6ZToxMnB4O2NvbG9yOnZhcigtLXRleHQtc2Vjb25kYXJ5KTsiPiR7ZGlzYWJsZWQgPyAnQ3VycmVudGx5IHVuYXZhaWxhYmxlJyA6IG0uZGVzY308L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICAgIDxkaXYgY2xhc3M9InBheW1lbnQtbWV0aG9kX19kZXRhaWxzIiBpZD0iZGV0YWlscy0ke20uaWR9Ij4KICAgICAgICAgICR7bS5kZXRhaWxzSHRtbH0KICAgICAgICA8L2Rpdj5gOwogICAgfSk7CiAgICBjb250YWluZXIuaW5uZXJIVE1MID0gaHRtbDsKICB9CgogIHdpbmRvdy5zZWxlY3RQYXltZW50ID0gZnVuY3Rpb24obWV0aG9kKSB7CiAgICAvLyBVcGRhdGUgYWN0aXZlIHN0YXRlCiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcucGF5bWVudC1tZXRob2QnKS5mb3JFYWNoKGVsID0+IHsKICAgICAgZWwuY2xhc3NMaXN0LnJlbW92ZSgncGF5bWVudC1tZXRob2QtLWFjdGl2ZScpOwogICAgfSk7CiAgICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKGAucGF5bWVudC1tZXRob2RbZGF0YS1tZXRob2Q9IiR7bWV0aG9kfSJdYCkuY2xhc3NMaXN0LmFkZCgncGF5bWVudC1tZXRob2QtLWFjdGl2ZScpOwoKICAgIC8vIEhpZGUgYWxsIGRldGFpbHMKICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5wYXltZW50LW1ldGhvZF9fZGV0YWlscycpLmZvckVhY2goZWwgPT4gewogICAgICBlbC5jbGFzc0xpc3QucmVtb3ZlKCdwYXltZW50LW1ldGhvZF9fZGV0YWlscy0tb3BlbicpOwogICAgfSk7CgogICAgLy8gU2hvdyBzZWxlY3RlZCBkZXRhaWxzCiAgICBjb25zdCBkZXRhaWxzID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYGRldGFpbHMtJHttZXRob2R9YCk7CiAgICBpZiAoZGV0YWlscykgewogICAgICBkZXRhaWxzLmNsYXNzTGlzdC5hZGQoJ3BheW1lbnQtbWV0aG9kX19kZXRhaWxzLS1vcGVuJyk7CiAgICB9CgogICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3BheW1lbnRNZXRob2RJbnB1dCcpLnZhbHVlID0gbWV0aG9kOwogIH07CgogIC8vIExvYWQgcGF5bWVudCBpbmZvCiAgZmV0Y2goJy9hcGkvcGF5bWVudC1pbmZvJykKICAgIC50aGVuKHIgPT4gci5qc29uKCkpCiAgICAudGhlbihkYXRhID0+IHsKICAgICAgcGF5bWVudEluZm8gPSBkYXRhOwogICAgICBkZWxpdmVyeUZlZSA9IHBhcnNlRmxvYXQoZGF0YS5kZWxpdmVyeV9mZWUpIHx8IDEwMDsKICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2VzdGltYXRlZERlbGl2ZXJ5JykudGV4dENvbnRlbnQgPSBkYXRhLmVzdGltYXRlZF9kZWxpdmVyeV90aW1lIHx8ICczMOKAkzQ1IG1pbnV0ZXMnOwogICAgICByZW5kZXJQYXltZW50TWV0aG9kcyhkYXRhKTsKICAgICAgdXBkYXRlVG90YWxzKCk7CiAgICB9KQogICAgLmNhdGNoKCgpID0+IHsKICAgICAgLy8gVXNlIGRlZmF1bHRzCiAgICAgIHBheW1lbnRJbmZvID0gewogICAgICAgIGphenpjYXNoOiB7IGVuYWJsZWQ6IHRydWUsIG51bWJlcjogJzAzWFgtWFhYWFhYWCcsIG5hbWU6ICdTdGVsbGEgQmlzdHJvJyB9LAogICAgICAgIGVhc3lwYWlzYTogeyBlbmFibGVkOiB0cnVlLCBudW1iZXI6ICcwM1hYLVhYWFhYWFgnLCBuYW1lOiAnU3RlbGxhIEJpc3RybycgfSwKICAgICAgICBtZWV6YW46IHsgZW5hYmxlZDogdHJ1ZSwgZGV0YWlsczogJ0FjY291bnQ6IFN0ZWxsYSBCaXN0cm8nIH0sCiAgICAgICAgaGJsOiB7IGVuYWJsZWQ6IHRydWUsIGRldGFpbHM6ICdCYW5rOiBIQkwnIH0sCiAgICAgICAgY29kOiB7IGVuYWJsZWQ6IHRydWUsIG1heF9hbW91bnQ6IDAgfQogICAgICB9OwogICAgICByZW5kZXJQYXltZW50TWV0aG9kcyhwYXltZW50SW5mbyk7CiAgICB9KTsKCiAgcmVuZGVyU3VtbWFyeSgpOwoKICAvLyBQcm9tbyBjb2RlCiAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcGx5UHJvbW8nKT8uYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoKSA9PiB7CiAgICBjb25zdCBjb2RlID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3Byb21vQ29kZScpLnZhbHVlLnRyaW0oKTsKICAgIGlmICghY29kZSkgcmV0dXJuOwoKICAgIGZldGNoKCcvYXBpL3Byb21vJywgewogICAgICBtZXRob2Q6ICdQT1NUJywKICAgICAgaGVhZGVyczogeyAnQ29udGVudC1UeXBlJzogJ2FwcGxpY2F0aW9uL2pzb24nIH0sCiAgICAgIGJvZHk6IEpTT04uc3RyaW5naWZ5KHsgY29kZSwgc3VidG90YWwgfSkKICAgIH0pCiAgICAudGhlbihyID0+IHIuanNvbigpKQogICAgLnRoZW4oZGF0YSA9PiB7CiAgICAgIGlmIChkYXRhLnN1Y2Nlc3MpIHsKICAgICAgICBhcHBsaWVkRGlzY291bnQgPSBkYXRhLmRpc2NvdW50OwogICAgICAgIGFwcGxpZWRDb2RlID0gZGF0YS5jb2RlOwogICAgICAgIHVwZGF0ZVRvdGFscygpOwogICAgICAgIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwcm9tb0NvZGUnKS5kaXNhYmxlZCA9IHRydWU7CiAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcGx5UHJvbW8nKS5kaXNhYmxlZCA9IHRydWU7CiAgICAgICAgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2FwcGx5UHJvbW8nKS50ZXh0Q29udGVudCA9ICdBcHBsaWVkIOKckyc7CiAgICAgIH0gZWxzZSB7CiAgICAgICAgYWxlcnQoZGF0YS5lcnJvciB8fCAnSW52YWxpZCBwcm9tbyBjb2RlJyk7CiAgICAgIH0KICAgIH0pCiAgICAuY2F0Y2goKCkgPT4gYWxlcnQoJ0ZhaWxlZCB0byB2YWxpZGF0ZSBwcm9tbyBjb2RlJykpOwogIH0pOwoKICAvLyBGb3JtIHN1Ym1pc3Npb24KICBmb3JtLmFkZEV2ZW50TGlzdGVuZXIoJ3N1Ym1pdCcsIGFzeW5jIChlKSA9PiB7CiAgICBlLnByZXZlbnREZWZhdWx0KCk7CgogICAgY29uc3QgcGF5bWVudE1ldGhvZCA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdwYXltZW50TWV0aG9kSW5wdXQnKS52YWx1ZTsKICAgIGlmICghcGF5bWVudE1ldGhvZCkgewogICAgICBhbGVydCgnUGxlYXNlIHNlbGVjdCBhIHBheW1lbnQgbWV0aG9kJyk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICBpZiAoIWRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCd0ZXJtc0NoZWNrJykuY2hlY2tlZCkgewogICAgICBhbGVydCgnUGxlYXNlIGNvbmZpcm0geW91ciBvcmRlciBkZXRhaWxzJyk7CiAgICAgIHJldHVybjsKICAgIH0KCiAgICAvLyBHZXQgdHJhbnNhY3Rpb24gSUQKICAgIGxldCB0cmFuc2FjdGlvbklkID0gJyc7CiAgICBpZiAocGF5bWVudE1ldGhvZCAhPT0gJ2NvZCcpIHsKICAgICAgY29uc3QgdHhuSW5wdXQgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKGAjZGV0YWlscy0ke3BheW1lbnRNZXRob2R9IC50eG4taW5wdXRgKTsKICAgICAgaWYgKHR4bklucHV0KSB7CiAgICAgICAgdHJhbnNhY3Rpb25JZCA9IHR4bklucHV0LnZhbHVlLnRyaW0oKTsKICAgICAgICBpZiAoIXRyYW5zYWN0aW9uSWQpIHsKICAgICAgICAgIGFsZXJ0KCdQbGVhc2UgZW50ZXIgdGhlIHRyYW5zYWN0aW9uIElEJyk7CiAgICAgICAgICByZXR1cm47CiAgICAgICAgfQogICAgICB9CiAgICB9CgogICAgLy8gR2V0IHNjcmVlbnNob3QgZmlsZQogICAgY29uc3Qgc2NyZWVuc2hvdElucHV0ID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcihgI2RldGFpbHMtJHtwYXltZW50TWV0aG9kfSAuc2NyZWVuc2hvdC1pbnB1dGApOwogICAgY29uc3Qgc2NyZWVuc2hvdEZpbGUgPSBzY3JlZW5zaG90SW5wdXQ/LmZpbGVzPy5bMF0gfHwgbnVsbDsKCiAgICBjb25zdCBmb3JtRGF0YSA9IG5ldyBGb3JtRGF0YSgpOwogICAgZm9ybURhdGEuYXBwZW5kKCdjdXN0b21lcl9uYW1lJywgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2N1c3RvbWVyX25hbWUnKS52YWx1ZSk7CiAgICBmb3JtRGF0YS5hcHBlbmQoJ2N1c3RvbWVyX3Bob25lJywgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2N1c3RvbWVyX3Bob25lJykudmFsdWUpOwogICAgZm9ybURhdGEuYXBwZW5kKCdkZWxpdmVyeV9hZGRyZXNzJywgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2RlbGl2ZXJ5X2FkZHJlc3MnKS52YWx1ZSk7CiAgICBmb3JtRGF0YS5hcHBlbmQoJ2xhbmRtYXJrJywgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2xhbmRtYXJrJyk/LnZhbHVlIHx8ICcnKTsKICAgIGZvcm1EYXRhLmFwcGVuZCgnY2l0eScsIGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdjaXR5Jyk/LnZhbHVlIHx8ICdLYXJhY2hpJyk7CiAgICBmb3JtRGF0YS5hcHBlbmQoJ3NwZWNpYWxfaW5zdHJ1Y3Rpb25zJywgZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3NwZWNpYWxfaW5zdHJ1Y3Rpb25zJyk/LnZhbHVlIHx8ICcnKTsKICAgIGZvcm1EYXRhLmFwcGVuZCgncGF5bWVudF9tZXRob2QnLCBwYXltZW50TWV0aG9kKTsKICAgIGZvcm1EYXRhLmFwcGVuZCgndHJhbnNhY3Rpb25faWQnLCB0cmFuc2FjdGlvbklkKTsKICAgIGZvcm1EYXRhLmFwcGVuZCgnaXRlbXNfanNvbicsIEpTT04uc3RyaW5naWZ5KGl0ZW1zKSk7CiAgICBmb3JtRGF0YS5hcHBlbmQoJ3N1YnRvdGFsJywgc3VidG90YWwpOwogICAgZm9ybURhdGEuYXBwZW5kKCdkZWxpdmVyeV9mZWUnLCBkZWxpdmVyeUZlZSk7CiAgICBmb3JtRGF0YS5hcHBlbmQoJ3Byb21vX2NvZGUnLCBhcHBsaWVkQ29kZSk7CiAgICBmb3JtRGF0YS5hcHBlbmQoJ3Byb21vX2Rpc2NvdW50JywgYXBwbGllZERpc2NvdW50KTsKCiAgICBpZiAoc2NyZWVuc2hvdEZpbGUpIHsKICAgICAgZm9ybURhdGEuYXBwZW5kKCdwYXltZW50X3NjcmVlbnNob3QnLCBzY3JlZW5zaG90RmlsZSk7CiAgICB9CgogICAgY29uc3QgYnRuID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ3BsYWNlT3JkZXJCdG4nKTsKICAgIGJ0bi5kaXNhYmxlZCA9IHRydWU7CiAgICBidG4udGV4dENvbnRlbnQgPSAnUGxhY2luZyBPcmRlci4uLic7CgogICAgdHJ5IHsKICAgICAgY29uc3QgcmVzID0gYXdhaXQgZmV0Y2goJy9hcGkvb3JkZXJzJywgewogICAgICAgIG1ldGhvZDogJ1BPU1QnLAogICAgICAgIGJvZHk6IGZvcm1EYXRhCiAgICAgIH0pOwogICAgICBjb25zdCBkYXRhID0gYXdhaXQgcmVzLmpzb24oKTsKCiAgICAgIGlmIChkYXRhLnN1Y2Nlc3MpIHsKICAgICAgICBDYXJ0LmNsZWFyQ2FydCgpOwogICAgICAgIHdpbmRvdy5sb2NhdGlvbi5ocmVmID0gYC9vcmRlci1jb25maXJtYXRpb24vJHtkYXRhLm9yZGVyX251bWJlcn1gOwogICAgICB9IGVsc2UgewogICAgICAgIGFsZXJ0KGRhdGEuZXJyb3IgfHwgJ0ZhaWxlZCB0byBwbGFjZSBvcmRlcicpOwogICAgICAgIGJ0bi5kaXNhYmxlZCA9IGZhbHNlOwogICAgICAgIGJ0bi50ZXh0Q29udGVudCA9ICdQbGFjZSBPcmRlciDihpInOwogICAgICB9CiAgICB9IGNhdGNoKGUpIHsKICAgICAgYWxlcnQoJ05ldHdvcmsgZXJyb3IuIFBsZWFzZSB0cnkgYWdhaW4uJyk7CiAgICAgIGJ0bi5kaXNhYmxlZCA9IGZhbHNlOwogICAgICBidG4udGV4dENvbnRlbnQgPSAnUGxhY2UgT3JkZXIg4oaSJzsKICAgIH0KICB9KTsKfSk7Cg==
+// Stella Bistro — Checkout Page JavaScript
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const form = document.getElementById('checkoutForm');
+  if (!form) return;
+
+  const items = Cart.getItems();
+  const subtotal = Cart.getSubtotal();
+
+  // Redirect if cart empty
+  if (items.length === 0) {
+    window.location.href = '/menu';
+    return;
+  }
+
+  // Load payment info from API
+  let paymentInfo = null;
+  let deliveryFee = 100;
+  let appliedDiscount = 0;
+  let appliedCode = '';
+
+  // Display order summary
+  function renderSummary() {
+    const container = document.getElementById('checkoutItems');
+    if (!container) return;
+
+    let html = '';
+    items.forEach(item => {
+      const imgHtml = item.image
+        ? `<img src="${item.image}" alt="${item.name}" class="checkout-summary__item-img">`
+        : `<div class="checkout-summary__item-img" style="background:#1A1A1A;display:flex;align-items:center;justify-content:center;font-size:16px;color:var(--gold);">${item.name.charAt(0)}</div>`;
+      html += `
+        <div class="checkout-summary__item">
+          ${imgHtml}
+          <div class="checkout-summary__item-info">
+            <div class="checkout-summary__item-name">${item.name}</div>
+            <div class="checkout-summary__item-qty">Qty: ${item.quantity}</div>
+          </div>
+          <div class="checkout-summary__item-price">Rs. ${Math.round(item.price * item.quantity)}</div>
+        </div>`;
+    });
+    container.innerHTML = html;
+
+    updateTotals();
+  }
+
+  function updateTotals() {
+    const sub = subtotal;
+    const total = Math.max(0, sub + deliveryFee - appliedDiscount);
+
+    document.getElementById('checkoutSubtotal').textContent = `Rs. ${Math.round(sub)}`;
+    document.getElementById('checkoutDeliveryFee').textContent = `Rs. ${deliveryFee}`;
+
+    const discountRow = document.getElementById('checkoutDiscountRow');
+    if (appliedDiscount > 0) {
+      discountRow.style.display = 'flex';
+      document.getElementById('checkoutDiscount').textContent = `-Rs. ${Math.round(appliedDiscount)}`;
+    } else {
+      discountRow.style.display = 'none';
+    }
+
+    document.getElementById('checkoutTotal').textContent = `Rs. ${Math.round(total)}`;
+
+    // Update hidden fields
+    document.getElementById('itemsJsonInput').value = JSON.stringify(items);
+    document.getElementById('subtotalInput').value = sub;
+    document.getElementById('deliveryFeeInput').value = deliveryFee;
+    document.getElementById('promoCodeInput').value = appliedCode;
+    document.getElementById('promoDiscountInput').value = appliedDiscount;
+  }
+
+  // Render payment methods
+  function renderPaymentMethods(info) {
+    const container = document.getElementById('paymentMethods');
+    if (!container) return;
+
+    const total = Math.max(0, subtotal + deliveryFee - appliedDiscount);
+    const methods = [
+      {
+        id: 'jazzcash',
+        label: 'JazzCash',
+        icon: '🟢',
+        desc: 'Mobile Account Transfer',
+        enabled: info.jazzcash.enabled,
+        detailsHtml: `
+          <p>Send <strong>Rs. ${Math.round(total)}</strong> to:</p>
+          <p><strong>Number:</strong> ${info.jazzcash.number}</p>
+          <p><strong>Account Name:</strong> ${info.jazzcash.name}</p>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Transaction ID *</label>
+            <input type="text" class="input txn-input" name="txn_jazzcash" required>
+          </div>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Upload Payment Screenshot (optional)</label>
+            <input type="file" class="input screenshot-input" accept="image/*">
+          </div>`
+      },
+      {
+        id: 'easypaisa',
+        label: 'EasyPaisa',
+        icon: '🟠',
+        desc: 'Mobile Account Transfer',
+        enabled: info.easypaisa.enabled,
+        detailsHtml: `
+          <p>Send <strong>Rs. ${Math.round(total)}</strong> to:</p>
+          <p><strong>Number:</strong> ${info.easypaisa.number}</p>
+          <p><strong>Account Name:</strong> ${info.easypaisa.name}</p>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Transaction ID *</label>
+            <input type="text" class="input txn-input" name="txn_easypaisa" required>
+          </div>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Upload Payment Screenshot (optional)</label>
+            <input type="file" class="input screenshot-input" accept="image/*">
+          </div>`
+      },
+      {
+        id: 'meezan',
+        label: 'Meezan Bank',
+        icon: '🔵',
+        desc: 'Bank Transfer',
+        enabled: info.meezan.enabled,
+        detailsHtml: `
+          <p style="white-space:pre-line;">${info.meezan.details}</p>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Transaction ID / Reference *</label>
+            <input type="text" class="input txn-input" name="txn_meezan" required>
+          </div>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Upload Payment Screenshot (optional)</label>
+            <input type="file" class="input screenshot-input" accept="image/*">
+          </div>`
+      },
+      {
+        id: 'hbl',
+        label: 'HBL / Bank Transfer',
+        icon: '🔴',
+        desc: 'Online Banking / Interbank',
+        enabled: info.hbl.enabled,
+        detailsHtml: `
+          <p style="white-space:pre-line;">${info.hbl.details}</p>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Transaction ID / Reference *</label>
+            <input type="text" class="input txn-input" name="txn_hbl" required>
+          </div>
+          <div class="form-group" style="margin-top:8px;">
+            <label>Upload Payment Screenshot (optional)</label>
+            <input type="file" class="input screenshot-input" accept="image/*">
+          </div>`
+      },
+      {
+        id: 'cod',
+        label: 'Cash on Delivery',
+        icon: '💵',
+        desc: 'Pay when your order arrives',
+        enabled: info.cod.enabled,
+        detailsHtml: ''
+      }
+    ];
+
+    let html = '';
+    methods.forEach((m, idx) => {
+      const disabled = !m.enabled;
+      html += `
+        <div class="payment-method ${disabled ? 'payment-method--disabled' : ''}" data-method="${m.id}" onclick="${disabled ? '' : `selectPayment('${m.id}')`}">
+          <span style="font-size:20px;">${m.icon}</span>
+          <div style="flex:1;">
+            <strong>${m.label}</strong>
+            <div style="font-size:12px;color:var(--text-secondary);">${disabled ? 'Currently unavailable' : m.desc}</div>
+          </div>
+        </div>
+        <div class="payment-method__details" id="details-${m.id}">
+          ${m.detailsHtml}
+        </div>`;
+    });
+    container.innerHTML = html;
+  }
+
+  window.selectPayment = function(method) {
+    // Update active state
+    document.querySelectorAll('.payment-method').forEach(el => {
+      el.classList.remove('payment-method--active');
+    });
+    document.querySelector(`.payment-method[data-method="${method}"]`).classList.add('payment-method--active');
+
+    // Hide all details
+    document.querySelectorAll('.payment-method__details').forEach(el => {
+      el.classList.remove('payment-method__details--open');
+    });
+
+    // Show selected details
+    const details = document.getElementById(`details-${method}`);
+    if (details) {
+      details.classList.add('payment-method__details--open');
+    }
+
+    document.getElementById('paymentMethodInput').value = method;
+  };
+
+  // Load payment info
+  fetch('/api/payment-info')
+    .then(r => r.json())
+    .then(data => {
+      paymentInfo = data;
+      deliveryFee = parseFloat(data.delivery_fee) || 100;
+      document.getElementById('estimatedDelivery').textContent = data.estimated_delivery_time || '30–45 minutes';
+      renderPaymentMethods(data);
+      updateTotals();
+    })
+    .catch(() => {
+      // Use defaults
+      paymentInfo = {
+        jazzcash: { enabled: true, number: '03XX-XXXXXXX', name: 'Stella Bistro' },
+        easypaisa: { enabled: true, number: '03XX-XXXXXXX', name: 'Stella Bistro' },
+        meezan: { enabled: true, details: 'Account: Stella Bistro' },
+        hbl: { enabled: true, details: 'Bank: HBL' },
+        cod: { enabled: true, max_amount: 0 }
+      };
+      renderPaymentMethods(paymentInfo);
+    });
+
+  renderSummary();
+
+  // Promo code
+  document.getElementById('applyPromo')?.addEventListener('click', () => {
+    const code = document.getElementById('promoCode').value.trim();
+    if (!code) return;
+
+    fetch('/api/promo', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code, subtotal })
+    })
+    .then(r => r.json())
+    .then(data => {
+      if (data.success) {
+        appliedDiscount = data.discount;
+        appliedCode = data.code;
+        updateTotals();
+        document.getElementById('promoCode').disabled = true;
+        document.getElementById('applyPromo').disabled = true;
+        document.getElementById('applyPromo').textContent = 'Applied ✓';
+      } else {
+        alert(data.error || 'Invalid promo code');
+      }
+    })
+    .catch(() => alert('Failed to validate promo code'));
+  });
+
+  // Form submission
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const paymentMethod = document.getElementById('paymentMethodInput').value;
+    if (!paymentMethod) {
+      alert('Please select a payment method');
+      return;
+    }
+
+    if (!document.getElementById('termsCheck').checked) {
+      alert('Please confirm your order details');
+      return;
+    }
+
+    // Get transaction ID
+    let transactionId = '';
+    if (paymentMethod !== 'cod') {
+      const txnInput = document.querySelector(`#details-${paymentMethod} .txn-input`);
+      if (txnInput) {
+        transactionId = txnInput.value.trim();
+        if (!transactionId) {
+          alert('Please enter the transaction ID');
+          return;
+        }
+      }
+    }
+
+    // Get screenshot file
+    const screenshotInput = document.querySelector(`#details-${paymentMethod} .screenshot-input`);
+    const screenshotFile = screenshotInput?.files?.[0] || null;
+
+    const formData = new FormData();
+    formData.append('customer_name', document.getElementById('customer_name').value);
+    formData.append('customer_phone', document.getElementById('customer_phone').value);
+    formData.append('delivery_address', document.getElementById('delivery_address').value);
+    formData.append('landmark', document.getElementById('landmark')?.value || '');
+    formData.append('city', document.getElementById('city')?.value || 'Karachi');
+    formData.append('special_instructions', document.getElementById('special_instructions')?.value || '');
+    formData.append('payment_method', paymentMethod);
+    formData.append('transaction_id', transactionId);
+    formData.append('items_json', JSON.stringify(items));
+    formData.append('subtotal', subtotal);
+    formData.append('delivery_fee', deliveryFee);
+    formData.append('promo_code', appliedCode);
+    formData.append('promo_discount', appliedDiscount);
+
+    if (screenshotFile) {
+      formData.append('payment_screenshot', screenshotFile);
+    }
+
+    const btn = document.getElementById('placeOrderBtn');
+    btn.disabled = true;
+    btn.textContent = 'Placing Order...';
+
+    try {
+      const res = await fetch('/api/orders', {
+        method: 'POST',
+        body: formData
+      });
+      const data = await res.json();
+
+      if (data.success) {
+        Cart.clearCart();
+        window.location.href = `/order-confirmation/${data.order_number}`;
+      } else {
+        alert(data.error || 'Failed to place order');
+        btn.disabled = false;
+        btn.textContent = 'Place Order →';
+      }
+    } catch(e) {
+      alert('Network error. Please try again.');
+      btn.disabled = false;
+      btn.textContent = 'Place Order →';
+    }
+  });
+});
