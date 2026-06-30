@@ -1,1 +1,15 @@
-ZnVuY3Rpb24gaXNBdXRoZW50aWNhdGVkKHJlcSwgcmVzLCBuZXh0KSB7CiAgaWYgKHJlcS5zZXNzaW9uICYmIHJlcS5zZXNzaW9uLmFkbWluSWQpIHsKICAgIHJldHVybiBuZXh0KCk7CiAgfQogIHJldHVybiByZXMucmVkaXJlY3QoJy9zdGVsbGEtY29udHJvbCcpOwp9CgpmdW5jdGlvbiByZWRpcmVjdElmQXV0aGVudGljYXRlZChyZXEsIHJlcywgbmV4dCkgewogIGlmIChyZXEuc2Vzc2lvbiAmJiByZXEuc2Vzc2lvbi5hZG1pbklkKSB7CiAgICByZXR1cm4gcmVzLnJlZGlyZWN0KCcvc3RlbGxhLWNvbnRyb2wvZGFzaGJvYXJkJyk7CiAgfQogIHJldHVybiBuZXh0KCk7Cn0KCm1vZHVsZS5leHBvcnRzID0geyBpc0F1dGhlbnRpY2F0ZWQsIHJlZGlyZWN0SWZBdXRoZW50aWNhdGVkIH07Cg==
+function isAuthenticated(req, res, next) {
+  if (req.session && req.session.adminId) {
+    return next();
+  }
+  return res.redirect('/stella-control');
+}
+
+function redirectIfAuthenticated(req, res, next) {
+  if (req.session && req.session.adminId) {
+    return res.redirect('/stella-control/dashboard');
+  }
+  return next();
+}
+
+module.exports = { isAuthenticated, redirectIfAuthenticated };
