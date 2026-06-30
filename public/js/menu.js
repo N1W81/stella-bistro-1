@@ -1,1 +1,110 @@
-Ly8gU3RlbGxhIEJpc3RybyDigJQgTWVudSBQYWdlIEphdmFTY3JpcHQKCmxldCBjdXJyZW50RmlsdGVyID0gJ2FsbCc7CmxldCBjdXJyZW50U2VhcmNoID0gJyc7CgpmdW5jdGlvbiBzY3JvbGxUb0NhdGVnb3J5KGNhdGVnb3J5SWQpIHsKICBjb25zdCBzZWN0aW9uID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoYGNhdGVnb3J5LSR7Y2F0ZWdvcnlJZH1gKTsKICBpZiAoc2VjdGlvbikgewogICAgY29uc3Qgb2Zmc2V0ID0gMTQwOwogICAgY29uc3QgdG9wID0gc2VjdGlvbi5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKS50b3AgKyB3aW5kb3cucGFnZVlPZmZzZXQgLSBvZmZzZXQ7CiAgICB3aW5kb3cuc2Nyb2xsVG8oeyB0b3AsIGJlaGF2aW9yOiAnc21vb3RoJyB9KTsKICB9CgogIC8vIFVwZGF0ZSBhY3RpdmUgdGFiCiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLm1lbnUtdGFiJykuZm9yRWFjaCh0YWIgPT4gewogICAgdGFiLmNsYXNzTGlzdC5yZW1vdmUoJ21lbnUtdGFiLS1hY3RpdmUnKTsKICAgIGlmIChwYXJzZUludCh0YWIuZGF0YXNldC5jYXRlZ29yeSkgPT09IGNhdGVnb3J5SWQpIHsKICAgICAgdGFiLmNsYXNzTGlzdC5hZGQoJ21lbnUtdGFiLS1hY3RpdmUnKTsKICAgICAgLy8gU2Nyb2xsIHRhYiBpbnRvIHZpZXcKICAgICAgdGFiLnNjcm9sbEludG9WaWV3KHsgYmVoYXZpb3I6ICdzbW9vdGgnLCBpbmxpbmU6ICdjZW50ZXInLCBibG9jazogJ25lYXJlc3QnIH0pOwogICAgfQogIH0pOwp9CgpmdW5jdGlvbiBzZXRGaWx0ZXIoZmlsdGVyLCBidG4pIHsKICBjdXJyZW50RmlsdGVyID0gZmlsdGVyOwogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5maWx0ZXItY2hpcCcpLmZvckVhY2goY2hpcCA9PiBjaGlwLmNsYXNzTGlzdC5yZW1vdmUoJ2ZpbHRlci1jaGlwLS1hY3RpdmUnKSk7CiAgaWYgKGJ0bikgYnRuLmNsYXNzTGlzdC5hZGQoJ2ZpbHRlci1jaGlwLS1hY3RpdmUnKTsKICBmaWx0ZXJNZW51KCk7Cn0KCmZ1bmN0aW9uIGZpbHRlck1lbnUoKSB7CiAgY29uc3Qgc2VhcmNoSW5wdXQgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbWVudVNlYXJjaCcpOwogIGN1cnJlbnRTZWFyY2ggPSBzZWFyY2hJbnB1dCA/IHNlYXJjaElucHV0LnZhbHVlLnRvTG93ZXJDYXNlKCkudHJpbSgpIDogJyc7CgogIGNvbnN0IGl0ZW1zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLm1lbnUtaXRlbScpOwogIGxldCB2aXNpYmxlQ291bnQgPSAwOwoKICBpdGVtcy5mb3JFYWNoKGl0ZW0gPT4gewogICAgY29uc3QgbmFtZSA9IGl0ZW0uZGF0YXNldC5uYW1lIHx8ICcnOwogICAgY29uc3QgZGVzYyA9IGl0ZW0uZGF0YXNldC5kZXNjIHx8ICcnOwogICAgY29uc3QgdGFncyA9IGl0ZW0uZGF0YXNldC50YWdzID8gSlNPTi5wYXJzZShpdGVtLmRhdGFzZXQudGFncykgOiBbXTsKCiAgICAvLyBTZWFyY2ggbWF0Y2gKICAgIGxldCBzZWFyY2hNYXRjaCA9IHRydWU7CiAgICBpZiAoY3VycmVudFNlYXJjaCkgewogICAgICBzZWFyY2hNYXRjaCA9IG5hbWUuaW5jbHVkZXMoY3VycmVudFNlYXJjaCkgfHwgZGVzYy5pbmNsdWRlcyhjdXJyZW50U2VhcmNoKTsKICAgIH0KCiAgICAvLyBGaWx0ZXIgbWF0Y2gKICAgIGxldCBmaWx0ZXJNYXRjaCA9IHRydWU7CiAgICBpZiAoY3VycmVudEZpbHRlciAhPT0gJ2FsbCcpIHsKICAgICAgZmlsdGVyTWF0Y2ggPSB0YWdzLnNvbWUodCA9PiB0LmluY2x1ZGVzKGN1cnJlbnRGaWx0ZXIpKTsKICAgIH0KCiAgICBjb25zdCBzaG93ID0gc2VhcmNoTWF0Y2ggJiYgZmlsdGVyTWF0Y2g7CiAgICBpdGVtLnN0eWxlLmRpc3BsYXkgPSBzaG93ID8gJycgOiAnbm9uZSc7CiAgICBpZiAoc2hvdykgdmlzaWJsZUNvdW50Kys7CiAgfSk7CgogIC8vIFNob3cvaGlkZSBjYXRlZ29yeSBzZWN0aW9ucyBiYXNlZCBvbiB2aXNpYmxlIGl0ZW1zCiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLm1lbnUtc2VjdGlvbicpLmZvckVhY2goc2VjdGlvbiA9PiB7CiAgICBjb25zdCB2aXNpYmxlSXRlbXMgPSBzZWN0aW9uLnF1ZXJ5U2VsZWN0b3JBbGwoJy5tZW51LWl0ZW1bc3R5bGUqPSJkaXNwbGF5OiBibG9jayJdLCAubWVudS1pdGVtOm5vdChbc3R5bGUqPSJkaXNwbGF5OiBub25lIl0pJyk7CiAgICBzZWN0aW9uLnN0eWxlLmRpc3BsYXkgPSB2aXNpYmxlSXRlbXMubGVuZ3RoID4gMCA/ICcnIDogJ25vbmUnOwogIH0pOwoKICAvLyBObyByZXN1bHRzIG1lc3NhZ2UKICBjb25zdCBub1Jlc3VsdHMgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnbm9SZXN1bHRzJyk7CiAgaWYgKG5vUmVzdWx0cykgewogICAgbm9SZXN1bHRzLnN0eWxlLmRpc3BsYXkgPSB2aXNpYmxlQ291bnQgPT09IDAgPyAnYmxvY2snIDogJ25vbmUnOwogIH0KfQoKLy8gU2Nyb2xsIHNweSBmb3IgY2F0ZWdvcnkgdGFicwpmdW5jdGlvbiBpbml0U2Nyb2xsU3B5KCkgewogIGNvbnN0IHNlY3Rpb25zID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnLm1lbnUtc2VjdGlvbicpOwogIGNvbnN0IHRhYnMgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcubWVudS10YWInKTsKCiAgaWYgKHNlY3Rpb25zLmxlbmd0aCA9PT0gMCB8fCB0YWJzLmxlbmd0aCA9PT0gMCkgcmV0dXJuOwoKICBjb25zdCBvYnNlcnZlciA9IG5ldyBJbnRlcnNlY3Rpb25PYnNlcnZlcigoZW50cmllcykgPT4gewogICAgZW50cmllcy5mb3JFYWNoKGVudHJ5ID0+IHsKICAgICAgaWYgKGVudHJ5LmlzSW50ZXJzZWN0aW5nKSB7CiAgICAgICAgY29uc3QgaWQgPSBlbnRyeS50YXJnZXQuZGF0YXNldC5jYXRlZ29yeTsKICAgICAgICB0YWJzLmZvckVhY2godGFiID0+IHsKICAgICAgICAgIHRhYi5jbGFzc0xpc3QucmVtb3ZlKCdtZW51LXRhYi0tYWN0aXZlJyk7CiAgICAgICAgICBpZiAocGFyc2VJbnQodGFiLmRhdGFzZXQuY2F0ZWdvcnkpID09PSBwYXJzZUludChpZCkpIHsKICAgICAgICAgICAgdGFiLmNsYXNzTGlzdC5hZGQoJ21lbnUtdGFiLS1hY3RpdmUnKTsKICAgICAgICAgICAgLy8gU2Nyb2xsIHRhYiBpbnRvIHZpZXcgaW4gdGhlIHRhYiBiYXIKICAgICAgICAgICAgY29uc3QgdGFiQmFyID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLm1lbnUtdGFic19faW5uZXInKTsKICAgICAgICAgICAgaWYgKHRhYkJhcikgewogICAgICAgICAgICAgIHRhYi5zY3JvbGxJbnRvVmlldyh7IGJlaGF2aW9yOiAnc21vb3RoJywgaW5saW5lOiAnY2VudGVyJywgYmxvY2s6ICduZWFyZXN0JyB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgfQogICAgICAgIH0pOwogICAgICB9CiAgICB9KTsKICB9LCB7IHRocmVzaG9sZDogMC4yLCByb290TWFyZ2luOiAnLTgwcHggMHB4IDBweCAwcHgnIH0pOwoKICBzZWN0aW9ucy5mb3JFYWNoKHNlY3Rpb24gPT4gb2JzZXJ2ZXIub2JzZXJ2ZShzZWN0aW9uKSk7Cn0KCi8vIEluaXRpYWxpemUgb24gbG9hZApkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4gewogIGluaXRTY3JvbGxTcHkoKTsKCiAgLy8gQWN0aXZhdGUgZmlyc3QgdGFiIG9uIGxvYWQKICBjb25zdCBmaXJzdFRhYiA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5tZW51LXRhYicpOwogIGlmIChmaXJzdFRhYikgZmlyc3RUYWIuY2xhc3NMaXN0LmFkZCgnbWVudS10YWItLWFjdGl2ZScpOwp9KTsK
+// Stella Bistro — Menu Page JavaScript
+
+let currentFilter = 'all';
+let currentSearch = '';
+
+function scrollToCategory(categoryId) {
+  const section = document.getElementById(`category-${categoryId}`);
+  if (section) {
+    const offset = 140;
+    const top = section.getBoundingClientRect().top + window.pageYOffset - offset;
+    window.scrollTo({ top, behavior: 'smooth' });
+  }
+
+  // Update active tab
+  document.querySelectorAll('.menu-tab').forEach(tab => {
+    tab.classList.remove('menu-tab--active');
+    if (parseInt(tab.dataset.category) === categoryId) {
+      tab.classList.add('menu-tab--active');
+      // Scroll tab into view
+      tab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+    }
+  });
+}
+
+function setFilter(filter, btn) {
+  currentFilter = filter;
+  document.querySelectorAll('.filter-chip').forEach(chip => chip.classList.remove('filter-chip--active'));
+  if (btn) btn.classList.add('filter-chip--active');
+  filterMenu();
+}
+
+function filterMenu() {
+  const searchInput = document.getElementById('menuSearch');
+  currentSearch = searchInput ? searchInput.value.toLowerCase().trim() : '';
+
+  const items = document.querySelectorAll('.menu-item');
+  let visibleCount = 0;
+
+  items.forEach(item => {
+    const name = item.dataset.name || '';
+    const desc = item.dataset.desc || '';
+    const tags = item.dataset.tags ? JSON.parse(item.dataset.tags) : [];
+
+    // Search match
+    let searchMatch = true;
+    if (currentSearch) {
+      searchMatch = name.includes(currentSearch) || desc.includes(currentSearch);
+    }
+
+    // Filter match
+    let filterMatch = true;
+    if (currentFilter !== 'all') {
+      filterMatch = tags.some(t => t.includes(currentFilter));
+    }
+
+    const show = searchMatch && filterMatch;
+    item.style.display = show ? '' : 'none';
+    if (show) visibleCount++;
+  });
+
+  // Show/hide category sections based on visible items
+  document.querySelectorAll('.menu-section').forEach(section => {
+    const visibleItems = section.querySelectorAll('.menu-item[style*="display: block"], .menu-item:not([style*="display: none"])');
+    section.style.display = visibleItems.length > 0 ? '' : 'none';
+  });
+
+  // No results message
+  const noResults = document.getElementById('noResults');
+  if (noResults) {
+    noResults.style.display = visibleCount === 0 ? 'block' : 'none';
+  }
+}
+
+// Scroll spy for category tabs
+function initScrollSpy() {
+  const sections = document.querySelectorAll('.menu-section');
+  const tabs = document.querySelectorAll('.menu-tab');
+
+  if (sections.length === 0 || tabs.length === 0) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const id = entry.target.dataset.category;
+        tabs.forEach(tab => {
+          tab.classList.remove('menu-tab--active');
+          if (parseInt(tab.dataset.category) === parseInt(id)) {
+            tab.classList.add('menu-tab--active');
+            // Scroll tab into view in the tab bar
+            const tabBar = document.querySelector('.menu-tabs__inner');
+            if (tabBar) {
+              tab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
+            }
+          }
+        });
+      }
+    });
+  }, { threshold: 0.2, rootMargin: '-80px 0px 0px 0px' });
+
+  sections.forEach(section => observer.observe(section));
+}
+
+// Initialize on load
+document.addEventListener('DOMContentLoaded', () => {
+  initScrollSpy();
+
+  // Activate first tab on load
+  const firstTab = document.querySelector('.menu-tab');
+  if (firstTab) firstTab.classList.add('menu-tab--active');
+});
