@@ -1,1 +1,29 @@
-PCUtIGluY2x1ZGUoJ3BhcnRpYWxzL2FkbWluLWhlYWQnKSAlPgo8Ym9keSBjbGFzcz0iYWRtaW4tYm9keSI+PCUtIGluY2x1ZGUoJ3BhcnRpYWxzL2FkbWluLXNpZGViYXInKSAlPgo8ZGl2IGNsYXNzPSJhZG1pbi1tYWluIj4KICA8aGVhZGVyIGNsYXNzPSJhZG1pbi10b3BiYXIiPjxidXR0b24gY2xhc3M9ImFkbWluLXRvcGJhcl9faGFtYnVyZ2VyIiBpZD0ic2lkZWJhclRvZ2dsZSI+4piwPC9idXR0b24+PGgxPkZlYXR1cmVkIERpc2hlczwvaDE+PGRpdiBjbGFzcz0iYWRtaW4tdG9wYmFyX19hY3Rpb25zIj48c3Bhbj48JT0gYWRtaW5Vc2VybmFtZSAlPjwvc3Bhbj48YSBocmVmPSIvc3RlbGxhLWNvbnRyb2wvbG9nb3V0IiBjbGFzcz0iYWRtaW4tdG9wYmFyX19sb2dvdXQiPkxvZ291dDwvYT48L2Rpdj48L2hlYWRlcj4KICA8ZGl2IGNsYXNzPSJhZG1pbi1jb250ZW50Ij4KICAgIDxmb3JtIG1ldGhvZD0iUE9TVCIgYWN0aW9uPSIvc3RlbGxhLWNvbnRyb2wvZmVhdHVyZWQvdXBkYXRlIj4KICAgICAgPGRpdiBjbGFzcz0iYWRtaW4tc2VjdGlvbiI+CiAgICAgICAgPGgyPkN1cnJlbnQgRmVhdHVyZWQgKDQgbWF4KTwvaDI+CiAgICAgICAgPGRpdiBjbGFzcz0iZmVhdHVyZWQtZ3JpZCI+CiAgICAgICAgICA8JSBmb3IobGV0IGkgPSAwOyBpIDwgNDsgaSsrKSB7ICU+CiAgICAgICAgICA8ZGl2IGNsYXNzPSJmZWF0dXJlZC1zbG90Ij4KICAgICAgICAgICAgPGgzPlNsb3QgPCU9IGkrMSAlPjwvaDM+CiAgICAgICAgICAgIDxzZWxlY3QgbmFtZT0iZmVhdHVyZWRfaWRzIiBjbGFzcz0iaW5wdXQiPgogICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+4oCUIFNlbGVjdCDigJQ8L29wdGlvbj4KICAgICAgICAgICAgICA8JSBbXS5jb25jYXQoYXZhaWxhYmxlIHx8IFtdKS5jb25jYXQoZmVhdHVyZWQgfHwgW10pLmZvckVhY2goaXRlbSA9PiB7ICU+CiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPSI8JT0gaXRlbS5pZCAlPiIgPCU9IGZlYXR1cmVkW2ldICYmIGZlYXR1cmVkW2ldLmlkID09PSBpdGVtLmlkID8gJ3NlbGVjdGVkJyA6ICcnICU+PjwlPSBpdGVtLm5hbWUgJT48L29wdGlvbj4KICAgICAgICAgICAgICA8JSB9KTsgJT4KICAgICAgICAgICAgPC9zZWxlY3Q+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwlIH0pOyAlPgogICAgICAgIDwvZGl2PgogICAgICAgIDxidXR0b24gY2xhc3M9ImJ0biBidG4tLWdvbGQiPlNhdmUgRmVhdHVyZWQgRGlzaGVzPC9idXR0b24+CiAgICAgIDwvZGl2PgogICAgPC9mb3JtPgogIDwvZGl2Pgo8L2Rpdj4KPHNjcmlwdCBzcmM9Ii9qcy9hZG1pbi9hZG1pbi1tYWluLmpzIj48L3NjcmlwdD4KPC9ib2R5Pgo8L2h0bWw+Cg==
+<%- include('partials/admin-head') %>
+<body class="admin-body"><%- include('partials/admin-sidebar') %>
+<div class="admin-main">
+  <header class="admin-topbar"><button class="admin-topbar__hamburger" id="sidebarToggle">☰</button><h1>Featured Dishes</h1><div class="admin-topbar__actions"><span><%= adminUsername %></span><a href="/stella-control/logout" class="admin-topbar__logout">Logout</a></div></header>
+  <div class="admin-content">
+    <form method="POST" action="/stella-control/featured/update">
+      <div class="admin-section">
+        <h2>Current Featured (4 max)</h2>
+        <div class="featured-grid">
+          <% for(let i = 0; i < 4; i++) { %>
+          <div class="featured-slot">
+            <h3>Slot <%= i+1 %></h3>
+            <select name="featured_ids" class="input">
+              <option value="">— Select —</option>
+              <% [].concat(available || []).concat(featured || []).forEach(item => { %>
+                <option value="<%= item.id %>" <%= featured[i] && featured[i].id === item.id ? 'selected' : '' %>><%= item.name %></option>
+              <% }); %>
+            </select>
+          </div>
+          <% }); %>
+        </div>
+        <button class="btn btn--gold">Save Featured Dishes</button>
+      </div>
+    </form>
+  </div>
+</div>
+<script src="/js/admin/admin-main.js"></script>
+</body>
+</html>
