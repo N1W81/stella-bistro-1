@@ -1,1 +1,61 @@
-Ly8gU3RlbGxhIEJpc3RybyDigJQgQWRtaW4gTWFpbiBKYXZhU2NyaXB0Cgpkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4gewogIC8vIFNpZGViYXIgdG9nZ2xlCiAgY29uc3Qgc2lkZWJhclRvZ2dsZSA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdzaWRlYmFyVG9nZ2xlJyk7CiAgY29uc3Qgc2lkZWJhciA9IGRvY3VtZW50LmdldEVsZW1lbnRCeUlkKCdhZG1pblNpZGViYXInKTsKICBjb25zdCBzaWRlYmFyQ2xvc2UgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnc2lkZWJhckNsb3NlJyk7CgogIGlmIChzaWRlYmFyVG9nZ2xlICYmIHNpZGViYXIpIHsKICAgIHNpZGViYXJUb2dnbGUuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoKSA9PiB7CiAgICAgIHNpZGViYXIuY2xhc3NMaXN0LnRvZ2dsZSgnYWRtaW4tc2lkZWJhci0tb3BlbicpOwogICAgfSk7CiAgfQoKICBpZiAoc2lkZWJhckNsb3NlICYmIHNpZGViYXIpIHsKICAgIHNpZGViYXJDbG9zZS5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsICgpID0+IHsKICAgICAgc2lkZWJhci5jbGFzc0xpc3QucmVtb3ZlKCdhZG1pbi1zaWRlYmFyLS1vcGVuJyk7CiAgICB9KTsKICB9CgogIC8vIENsb3NlIHNpZGViYXIgb24gbGluayBjbGljayAobW9iaWxlKQogIGlmIChzaWRlYmFyKSB7CiAgICBzaWRlYmFyLnF1ZXJ5U2VsZWN0b3JBbGwoJy5hZG1pbi1zaWRlYmFyX19saW5rJykuZm9yRWFjaChsaW5rID0+IHsKICAgICAgbGluay5hZGRFdmVudExpc3RlbmVyKCdjbGljaycsICgpID0+IHsKICAgICAgICBpZiAod2luZG93LmlubmVyV2lkdGggPD0gMTAyMykgewogICAgICAgICAgc2lkZWJhci5jbGFzc0xpc3QucmVtb3ZlKCdhZG1pbi1zaWRlYmFyLS1vcGVuJyk7CiAgICAgICAgfQogICAgICB9KTsKICAgIH0pOwogIH0KCiAgLy8gQ2xvc2Ugc2lkZWJhciBvbiBvdXRzaWRlIGNsaWNrCiAgZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoZSkgPT4gewogICAgaWYgKHdpbmRvdy5pbm5lcldpZHRoIDw9IDEwMjMgJiYgc2lkZWJhciAmJiBzaWRlYmFyLmNsYXNzTGlzdC5jb250YWlucygnYWRtaW4tc2lkZWJhci0tb3BlbicpKSB7CiAgICAgIGlmICghc2lkZWJhci5jb250YWlucyhlLnRhcmdldCkgJiYgIXNpZGViYXJUb2dnbGUuY29udGFpbnMoZS50YXJnZXQpKSB7CiAgICAgICAgc2lkZWJhci5jbGFzc0xpc3QucmVtb3ZlKCdhZG1pbi1zaWRlYmFyLS1vcGVuJyk7CiAgICAgIH0KICAgIH0KICB9KTsKCiAgLy8gRmxhc2ggbWVzc2FnZSBhdXRvLWhpZGUKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcuZmxhc2gnKS5mb3JFYWNoKGVsID0+IHsKICAgIHNldFRpbWVvdXQoKCkgPT4gewogICAgICBlbC5zdHlsZS5vcGFjaXR5ID0gJzAnOwogICAgICBlbC5zdHlsZS50cmFuc2l0aW9uID0gJ29wYWNpdHkgMC41cyBlYXNlJzsKICAgICAgc2V0VGltZW91dCgoKSA9PiBlbC5yZW1vdmUoKSwgNTAwKTsKICAgIH0sIDQwMDApOwogIH0pOwoKICAvLyBDb3B5IHRleHQgaGVscGVyCiAgd2luZG93LmNvcHlUZXh0ID0gZnVuY3Rpb24odGV4dCkgewogICAgbmF2aWdhdG9yLmNsaXBib2FyZC53cml0ZVRleHQodGV4dCkudGhlbigoKSA9PiB7CiAgICAgIGNvbnN0IGJ0biA9IGV2ZW50Py50YXJnZXQ7CiAgICAgIGlmIChidG4pIHsKICAgICAgICBjb25zdCBvcmlnID0gYnRuLnRleHRDb250ZW50OwogICAgICAgIGJ0bi50ZXh0Q29udGVudCA9ICdDb3BpZWQhJzsKICAgICAgICBzZXRUaW1lb3V0KCgpID0+IGJ0bi50ZXh0Q29udGVudCA9IG9yaWcsIDIwMDApOwogICAgICB9CiAgICB9KS5jYXRjaCgoKSA9PiB7fSk7CiAgfTsKfSk7Cg==
+// Stella Bistro — Admin Main JavaScript
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Sidebar toggle
+  const sidebarToggle = document.getElementById('sidebarToggle');
+  const sidebar = document.getElementById('adminSidebar');
+  const sidebarClose = document.getElementById('sidebarClose');
+
+  if (sidebarToggle && sidebar) {
+    sidebarToggle.addEventListener('click', () => {
+      sidebar.classList.toggle('admin-sidebar--open');
+    });
+  }
+
+  if (sidebarClose && sidebar) {
+    sidebarClose.addEventListener('click', () => {
+      sidebar.classList.remove('admin-sidebar--open');
+    });
+  }
+
+  // Close sidebar on link click (mobile)
+  if (sidebar) {
+    sidebar.querySelectorAll('.admin-sidebar__link').forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1023) {
+          sidebar.classList.remove('admin-sidebar--open');
+        }
+      });
+    });
+  }
+
+  // Close sidebar on outside click
+  document.addEventListener('click', (e) => {
+    if (window.innerWidth <= 1023 && sidebar && sidebar.classList.contains('admin-sidebar--open')) {
+      if (!sidebar.contains(e.target) && !sidebarToggle.contains(e.target)) {
+        sidebar.classList.remove('admin-sidebar--open');
+      }
+    }
+  });
+
+  // Flash message auto-hide
+  document.querySelectorAll('.flash').forEach(el => {
+    setTimeout(() => {
+      el.style.opacity = '0';
+      el.style.transition = 'opacity 0.5s ease';
+      setTimeout(() => el.remove(), 500);
+    }, 4000);
+  });
+
+  // Copy text helper
+  window.copyText = function(text) {
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = event?.target;
+      if (btn) {
+        const orig = btn.textContent;
+        btn.textContent = 'Copied!';
+        setTimeout(() => btn.textContent = orig, 2000);
+      }
+    }).catch(() => {});
+  };
+});
