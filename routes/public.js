@@ -1,1 +1,256 @@
-Y29uc3QgZXhwcmVzcyA9IHJlcXVpcmUoJ2V4cHJlc3MnKTsKY29uc3Qgcm91dGVyID0gZXhwcmVzcy5Sb3V0ZXIoKTsKY29uc3QgeyBxdWVyeSwgcnVuIH0gPSByZXF1aXJlKCcuLi9kYi9kYXRhYmFzZScpOwoKLy8gSGVscGVyIHRvIGdldCBzaXRlIHNldHRpbmdzIGFzIG9iamVjdApmdW5jdGlvbiBnZXRTZXR0aW5ncygpIHsKICBjb25zdCByb3dzID0gcXVlcnkoJ1NFTEVDVCBrZXksIHZhbHVlIEZST00gc2l0ZV9zZXR0aW5ncycpOwogIGNvbnN0IHNldHRpbmdzID0ge307CiAgcm93cy5mb3JFYWNoKHIgPT4gc2V0dGluZ3Nbci5rZXldID0gci52YWx1ZSk7CiAgcmV0dXJuIHNldHRpbmdzOwp9CgovLyBIZWxwZXIgdG8gZ2V0IG9wZW5pbmcgaG91cnMKZnVuY3Rpb24gZ2V0SG91cnMoKSB7CiAgcmV0dXJuIHF1ZXJ5KCdTRUxFQ1QgKiBGUk9NIG9wZW5pbmdfaG91cnMgT1JERVIgQlkgaWQnKTsKfQoKLy8gSGVscGVyIHRvIGNoZWNrIGlmIG9wZW4gbm93CmZ1bmN0aW9uIGlzT3Blbk5vdyhob3VycykgewogIGNvbnN0IG5vdyA9IG5ldyBEYXRlKCk7CiAgY29uc3QgZGF5cyA9IFsnU3VuZGF5JywgJ01vbmRheScsICdUdWVzZGF5JywgJ1dlZG5lc2RheScsICdUaHVyc2RheScsICdGcmlkYXknLCAnU2F0dXJkYXknXTsKICBjb25zdCB0b2RheSA9IGRheXNbbm93LmdldERheSgpXTsKICBjb25zdCB0b2RheUhvdXJzID0gaG91cnMuZmluZChoID0+IGguZGF5X25hbWUgPT09IHRvZGF5KTsKICBpZiAoIXRvZGF5SG91cnMgfHwgdG9kYXlIb3Vycy5pc19jbG9zZWQpIHJldHVybiBmYWxzZTsKCiAgY29uc3QgY3VycmVudE1pbnV0ZXMgPSBub3cuZ2V0SG91cnMoKSAqIDYwICsgbm93LmdldE1pbnV0ZXMoKTsKICBjb25zdCBbb3BlbkgsIG9wZW5NXSA9IHRvZGF5SG91cnMub3Blbl90aW1lLnNwbGl0KCc6JykubWFwKE51bWJlcik7CiAgY29uc3QgW2Nsb3NlSCwgY2xvc2VNXSA9IHRvZGF5SG91cnMuY2xvc2VfdGltZS5zcGxpdCgnOicpLm1hcChOdW1iZXIpOwogIGNvbnN0IG9wZW5NaW51dGVzID0gb3BlbkggKiA2MCArIG9wZW5NOwogIGxldCBjbG9zZU1pbnV0ZXMgPSBjbG9zZUggKiA2MCArIGNsb3NlTTsKCiAgLy8gSGFuZGxlIG1pZG5pZ2h0IGNyb3NzCiAgaWYgKGNsb3NlTWludXRlcyA8PSBvcGVuTWludXRlcykgY2xvc2VNaW51dGVzICs9IDE0NDA7CgogIHJldHVybiBjdXJyZW50TWludXRlcyA+PSBvcGVuTWludXRlcyAmJiBjdXJyZW50TWludXRlcyA8IGNsb3NlTWludXRlczsKfQoKLy8gSGVscGVyIHRvIGNvbXB1dGUgZGlzcGxheSBwcmljZQpmdW5jdGlvbiBjb21wdXRlRGlzcGxheVByaWNlKGl0ZW0pIHsKICBpZiAoIWl0ZW0uZGlzY291bnRfZW5hYmxlZCkgcmV0dXJuIGl0ZW0uYmFzZV9wcmljZTsKICBpZiAoaXRlbS5kaXNjb3VudF90eXBlID09PSAncGVyY2VudGFnZScpIHsKICAgIHJldHVybiBNYXRoLm1heCgxLCBNYXRoLnJvdW5kKGl0ZW0uYmFzZV9wcmljZSAqICgxIC0gaXRlbS5kaXNjb3VudF92YWx1ZSAvIDEwMCkgKiAxMDApIC8gMTAwKTsKICB9CiAgaWYgKGl0ZW0uZGlzY291bnRfdHlwZSA9PT0gJ2ZpeGVkJykgewogICAgcmV0dXJuIE1hdGgubWF4KDEsIGl0ZW0uYmFzZV9wcmljZSAtIGl0ZW0uZGlzY291bnRfdmFsdWUpOwogIH0KICByZXR1cm4gaXRlbS5iYXNlX3ByaWNlOwp9CgovLyBIb21lcGFnZQpyb3V0ZXIuZ2V0KCcvJywgKHJlcSwgcmVzKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHNldHRpbmdzID0gZ2V0U2V0dGluZ3MoKTsKICAgIGNvbnN0IGhvdXJzID0gZ2V0SG91cnMoKTsKICAgIGNvbnN0IG9wZW5Ob3cgPSBpc09wZW5Ob3coaG91cnMpOwoKICAgIGNvbnN0IGZlYXR1cmVkID0gcXVlcnkoJ1NFTEVDVCAqIEZST00gbWVudV9pdGVtcyBXSEVSRSBpc19mZWF0dXJlZCA9IDEgQU5EIHZpc2libGUgPSAxIExJTUlUIDQnKTsKICAgIGZlYXR1cmVkLmZvckVhY2goaXRlbSA9PiB7CiAgICAgIGl0ZW0uZGlzcGxheV9wcmljZSA9IGNvbXB1dGVEaXNwbGF5UHJpY2UoaXRlbSk7CiAgICAgIHRyeSB7IGl0ZW0udGFncyA9IEpTT04ucGFyc2UoaXRlbS50YWdzKTsgfSBjYXRjaChlKSB7IGl0ZW0udGFncyA9IFtdOyB9CiAgICB9KTsKCiAgICBjb25zdCB0ZXN0aW1vbmlhbHMgPSBxdWVyeSgnU0VMRUNUICogRlJPTSB0ZXN0aW1vbmlhbHMgV0hFUkUgdmlzaWJsZSA9IDEgT1JERVIgQlkgY3JlYXRlZF9hdCBERVNDIExJTUlUIDUnKTsKCiAgICBjb25zdCB1cGNvbWluZ0V2ZW50cyA9IHF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIGV2ZW50cyBXSEVSRSB2aXNpYmxlID0gMSBBTkQgZGF0ZSA+PSBkYXRlKCdub3cnKSBPUkRFUiBCWSBkYXRlIEFTQyBMSU1JVCAzIik7CgogICAgY29uc3QgbmV3c1Bvc3RzID0gcXVlcnkoJ1NFTEVDVCAqIEZST00gbmV3c19wb3N0cyBXSEVSRSBwdWJsaXNoZWQgPSAxIE9SREVSIEJZIGRhdGUgREVTQyBMSU1JVCAzJyk7CgogICAgY29uc3QgZ2FsbGVyeUltYWdlcyA9IHF1ZXJ5KCdTRUxFQ1QgKiBGUk9NIGdhbGxlcnlfaW1hZ2VzIE9SREVSIEJZIGRpc3BsYXlfb3JkZXIgQVNDLCBjcmVhdGVkX2F0IERFU0MnKTsKCiAgICByZXMucmVuZGVyKCdpbmRleCcsIHsKICAgICAgcGFnZVRpdGxlOiAnU3RlbGxhIEJpc3RybyDigJQgS2FyYWNoaVwncyBGaW5lc3QgQmlzdHJvJywKICAgICAgc2V0dGluZ3MsCiAgICAgIGhvdXJzLAogICAgICBvcGVuTm93LAogICAgICBmZWF0dXJlZCwKICAgICAgdGVzdGltb25pYWxzLAogICAgICB1cGNvbWluZ0V2ZW50cywKICAgICAgbmV3c1Bvc3RzLAogICAgICBnYWxsZXJ5SW1hZ2VzLAogICAgICBwYXRoOiAnLycsCiAgICB9KTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLmVycm9yKCdIb21lcGFnZSBlcnJvcjonLCBlKTsKICAgIHJlcy5zdGF0dXMoNTAwKS5zZW5kKCdTZXJ2ZXIgZXJyb3InKTsKICB9Cn0pOwoKLy8gTWVudSBwYWdlCnJvdXRlci5nZXQoJy9tZW51JywgKHJlcSwgcmVzKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHNldHRpbmdzID0gZ2V0U2V0dGluZ3MoKTsKICAgIGNvbnN0IGNhdGVnb3JpZXMgPSBxdWVyeSgnU0VMRUNUICogRlJPTSBjYXRlZ29yaWVzIFdIRVJFIHZpc2libGUgPSAxIE9SREVSIEJZIGRpc3BsYXlfb3JkZXIgQVNDJyk7CiAgICBjb25zdCBpdGVtcyA9IHF1ZXJ5KCdTRUxFQ1QgKiBGUk9NIG1lbnVfaXRlbXMgV0hFUkUgdmlzaWJsZSA9IDEgT1JERVIgQlkgZGlzcGxheV9vcmRlciBBU0MsIGlkIEFTQycpOwoKICAgIGl0ZW1zLmZvckVhY2goaXRlbSA9PiB7CiAgICAgIGl0ZW0uZGlzcGxheV9wcmljZSA9IGNvbXB1dGVEaXNwbGF5UHJpY2UoaXRlbSk7CiAgICAgIHRyeSB7IGl0ZW0udGFncyA9IEpTT04ucGFyc2UoaXRlbS50YWdzKTsgfSBjYXRjaChlKSB7IGl0ZW0udGFncyA9IFtdOyB9CiAgICB9KTsKCiAgICAvLyBHcm91cCBpdGVtcyBieSBjYXRlZ29yeQogICAgY29uc3QgbWVudURhdGEgPSBjYXRlZ29yaWVzLm1hcChjYXQgPT4gKHsKICAgICAgLi4uY2F0LAogICAgICBpdGVtczogaXRlbXMuZmlsdGVyKGl0ZW0gPT4gaXRlbS5jYXRlZ29yeV9pZCA9PT0gY2F0LmlkKSwKICAgIH0pKTsKCiAgICByZXMucmVuZGVyKCdtZW51JywgewogICAgICBwYWdlVGl0bGU6ICdNZW51IOKAlCBTdGVsbGEgQmlzdHJvJywKICAgICAgc2V0dGluZ3MsCiAgICAgIG1lbnVEYXRhLAogICAgICBwYXRoOiAnL21lbnUnLAogICAgfSk7CiAgfSBjYXRjaCAoZSkgewogICAgY29uc29sZS5lcnJvcignTWVudSBlcnJvcjonLCBlKTsKICAgIHJlcy5zdGF0dXMoNTAwKS5zZW5kKCdTZXJ2ZXIgZXJyb3InKTsKICB9Cn0pOwoKLy8gQ2hlY2tvdXQgcGFnZQpyb3V0ZXIuZ2V0KCcvY2hlY2tvdXQnLCAocmVxLCByZXMpID0+IHsKICB0cnkgewogICAgY29uc3Qgc2V0dGluZ3MgPSBnZXRTZXR0aW5ncygpOwogICAgLy8gR2V0IGRlbGl2ZXJ5IGNpdGllcwogICAgY29uc3QgY2l0aWVzU3RyID0gc2V0dGluZ3MuZGVsaXZlcnlfY2l0aWVzIHx8ICdLYXJhY2hpJzsKICAgIGNvbnN0IGNpdGllcyA9IGNpdGllc1N0ci5zcGxpdCgnLCcpLm1hcChjID0+IGMudHJpbSgpKS5maWx0ZXIoQm9vbGVhbik7CgogICAgcmVzLnJlbmRlcignY2hlY2tvdXQnLCB7CiAgICAgIHBhZ2VUaXRsZTogJ0NoZWNrb3V0IOKAlCBTdGVsbGEgQmlzdHJvJywKICAgICAgc2V0dGluZ3MsCiAgICAgIGNpdGllcywKICAgICAgcGF0aDogJy9jaGVja291dCcsCiAgICB9KTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLmVycm9yKCdDaGVja291dCBlcnJvcjonLCBlKTsKICAgIHJlcy5zdGF0dXMoNTAwKS5zZW5kKCdTZXJ2ZXIgZXJyb3InKTsKICB9Cn0pOwoKLy8gT3JkZXIgY29uZmlybWF0aW9uCnJvdXRlci5nZXQoJy9vcmRlci1jb25maXJtYXRpb24vOm9yZGVyTnVtYmVyJywgKHJlcSwgcmVzKSA9PiB7CiAgdHJ5IHsKICAgIGNvbnN0IHNldHRpbmdzID0gZ2V0U2V0dGluZ3MoKTsKICAgIGNvbnN0IG9yZGVyID0gcXVlcnkoJ1NFTEVDVCAqIEZST00gb3JkZXJzIFdIRVJFIG9yZGVyX251bWJlciA9ID8nLCBbcmVxLnBhcmFtcy5vcmRlck51bWJlcl0pOwoKICAgIGlmICghb3JkZXIgfHwgb3JkZXIubGVuZ3RoID09PSAwKSB7CiAgICAgIHJldHVybiByZXMuc3RhdHVzKDQwNCkucmVuZGVyKCdOb3RGb3VuZCcsIHsgcGFnZVRpdGxlOiAnT3JkZXIgTm90IEZvdW5kJywgc2V0dGluZ3MgfSk7CiAgICB9CgogICAgY29uc3QgbyA9IG9yZGVyWzBdOwogICAgdHJ5IHsgby5pdGVtcyA9IEpTT04ucGFyc2Uoby5pdGVtc19qc29uKTsgfSBjYXRjaChlKSB7IG8uaXRlbXMgPSBbXTsgfQoKICAgIHJlcy5yZW5kZXIoJ29yZGVyLWNvbmZpcm1hdGlvbicsIHsKICAgICAgcGFnZVRpdGxlOiBgT3JkZXIgJHtvLm9yZGVyX251bWJlcn0g4oCUIFN0ZWxsYSBCaXN0cm9gLAogICAgICBzZXR0aW5ncywKICAgICAgb3JkZXI6IG8sCiAgICAgIHBhdGg6ICcvb3JkZXItY29uZmlybWF0aW9uJywKICAgIH0pOwogIH0gY2F0Y2ggKGUpIHsKICAgIGNvbnNvbGUuZXJyb3IoJ09yZGVyIGNvbmZpcm1hdGlvbiBlcnJvcjonLCBlKTsKICAgIHJlcy5zdGF0dXMoNTAwKS5zZW5kKCdTZXJ2ZXIgZXJyb3InKTsKICB9Cn0pOwoKLy8gRXZlbnRzIHBhZ2UKcm91dGVyLmdldCgnL2V2ZW50cycsIChyZXEsIHJlcykgPT4gewogIHRyeSB7CiAgICBjb25zdCBzZXR0aW5ncyA9IGdldFNldHRpbmdzKCk7CiAgICBjb25zdCBwYWdlID0gcGFyc2VJbnQocmVxLnF1ZXJ5LnBhZ2UpIHx8IDE7CiAgICBjb25zdCBwZXJQYWdlID0gODsKICAgIGNvbnN0IG9mZnNldCA9IChwYWdlIC0gMSkgKiBwZXJQYWdlOwoKICAgIGNvbnN0IHVwY29taW5nRXZlbnRzID0gcXVlcnkoIlNFTEVDVCAqIEZST00gZXZlbnRzIFdIRVJFIHZpc2libGUgPSAxIEFORCBkYXRlID49IGRhdGUoJ25vdycpIE9SREVSIEJZIGRhdGUgQVNDIik7CiAgICBjb25zdCB0b3RhbFVwY29taW5nID0gdXBjb21pbmdFdmVudHMubGVuZ3RoOwogICAgY29uc3QgcGFnaW5hdGVkRXZlbnRzID0gdXBjb21pbmdFdmVudHMuc2xpY2Uob2Zmc2V0LCBvZmZzZXQgKyBwZXJQYWdlKTsKICAgIGNvbnN0IHRvdGFsUGFnZXMgPSBNYXRoLmNlaWwodG90YWxVcGNvbWluZyAvIHBlclBhZ2UpIHx8IDE7CgogICAgY29uc3QgcGFzdEV2ZW50cyA9IHF1ZXJ5KCJTRUxFQ1QgKiBGUk9NIGV2ZW50cyBXSEVSRSB2aXNpYmxlID0gMSBBTkQgZGF0ZSA8IGRhdGUoJ25vdycpIE9SREVSIEJZIGRhdGUgREVTQyBMSU1JVCAxMCIpOwoKICAgIHJlcy5yZW5kZXIoJ2V2ZW50cycsIHsKICAgICAgcGFnZVRpdGxlOiAnRXZlbnRzIOKAlCBTdGVsbGEgQmlzdHJvJywKICAgICAgc2V0dGluZ3MsCiAgICAgIGV2ZW50czogcGFnaW5hdGVkRXZlbnRzLAogICAgICBwYXN0RXZlbnRzLAogICAgICBjdXJyZW50UGFnZTogcGFnZSwKICAgICAgdG90YWxQYWdlcywKICAgICAgcGF0aDogJy9ldmVudHMnLAogICAgfSk7CiAgfSBjYXRjaCAoZSkgewogICAgY29uc29sZS5lcnJvcignRXZlbnRzIGVycm9yOicsIGUpOwogICAgcmVzLnN0YXR1cyg1MDApLnNlbmQoJ1NlcnZlciBlcnJvcicpOwogIH0KfSk7CgovLyBOZXdzIHBhZ2UKcm91dGVyLmdldCgnL25ld3MnLCAocmVxLCByZXMpID0+IHsKICB0cnkgewogICAgY29uc3Qgc2V0dGluZ3MgPSBnZXRTZXR0aW5ncygpOwogICAgY29uc3QgcGFnZSA9IHBhcnNlSW50KHJlcS5xdWVyeS5wYWdlKSB8fCAxOwogICAgY29uc3QgcGVyUGFnZSA9IDY7CiAgICBjb25zdCBvZmZzZXQgPSAocGFnZSAtIDEpICogcGVyUGFnZTsKCiAgICBjb25zdCBhbGxQb3N0cyA9IHF1ZXJ5KCdTRUxFQ1QgKiBGUk9NIG5ld3NfcG9zdHMgV0hFUkUgcHVibGlzaGVkID0gMSBPUkRFUiBCWSBkYXRlIERFU0MnKTsKICAgIGNvbnN0IHRvdGFsUG9zdHMgPSBhbGxQb3N0cy5sZW5ndGg7CiAgICBjb25zdCBwYWdpbmF0ZWRQb3N0cyA9IGFsbFBvc3RzLnNsaWNlKG9mZnNldCwgb2Zmc2V0ICsgcGVyUGFnZSk7CiAgICBjb25zdCB0b3RhbFBhZ2VzID0gTWF0aC5jZWlsKHRvdGFsUG9zdHMgLyBwZXJQYWdlKTsKCiAgICByZXMucmVuZGVyKCduZXdzJywgewogICAgICBwYWdlVGl0bGU6ICdOZXdzIOKAlCBTdGVsbGEgQmlzdHJvJywKICAgICAgc2V0dGluZ3MsCiAgICAgIHBvc3RzOiBwYWdpbmF0ZWRQb3N0cywKICAgICAgY3VycmVudFBhZ2U6IHBhZ2UsCiAgICAgIHRvdGFsUGFnZXMsCiAgICAgIHBhdGg6ICcvbmV3cycsCiAgICB9KTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLmVycm9yKCdOZXdzIGVycm9yOicsIGUpOwogICAgcmVzLnN0YXR1cyg1MDApLnNlbmQoJ1NlcnZlciBlcnJvcicpOwogIH0KfSk7CgovLyBJbmRpdmlkdWFsIG5ld3MgcG9zdApyb3V0ZXIuZ2V0KCcvbmV3cy86c2x1ZycsIChyZXEsIHJlcykgPT4gewogIHRyeSB7CiAgICBjb25zdCBzZXR0aW5ncyA9IGdldFNldHRpbmdzKCk7CiAgICBjb25zdCBwb3N0cyA9IHF1ZXJ5KCdTRUxFQ1QgKiBGUk9NIG5ld3NfcG9zdHMgV0hFUkUgc2x1ZyA9ID8gQU5EIHB1Ymxpc2hlZCA9IDEnLCBbcmVxLnBhcmFtcy5zbHVnXSk7CgogICAgaWYgKCFwb3N0cyB8fCBwb3N0cy5sZW5ndGggPT09IDApIHsKICAgICAgcmV0dXJuIHJlcy5zdGF0dXMoNDA0KS5yZW5kZXIoJ05vdEZvdW5kJywgeyBwYWdlVGl0bGU6ICdQb3N0IE5vdCBGb3VuZCcsIHNldHRpbmdzIH0pOwogICAgfQoKICAgIGNvbnN0IHBvc3QgPSBwb3N0c1swXTsKCiAgICAvLyBSZWxhdGVkIHBvc3RzCiAgICBsZXQgcmVsYXRlZFBvc3RzID0gW107CiAgICBpZiAocG9zdC5jYXRlZ29yeSkgewogICAgICByZWxhdGVkUG9zdHMgPSBxdWVyeSgnU0VMRUNUICogRlJPTSBuZXdzX3Bvc3RzIFdIRVJFIHB1Ymxpc2hlZCA9IDEgQU5EIGNhdGVnb3J5ID0gPyBBTkQgaWQgIT0gPyBPUkRFUiBCWSBkYXRlIERFU0MgTElNSVQgMycsIFtwb3N0LmNhdGVnb3J5LCBwb3N0LmlkXSk7CiAgICB9CiAgICBpZiAocmVsYXRlZFBvc3RzLmxlbmd0aCA8IDMpIHsKICAgICAgY29uc3QgcmVjZW50UG9zdHMgPSBxdWVyeShgU0VMRUNUICogRlJPTSBuZXdzX3Bvc3RzIFdIRVJFIHB1Ymxpc2hlZCA9IDEgQU5EIGlkICE9ID8gT1JERVIgQlkgZGF0ZSBERVNDIExJTUlUICR7MyAtIHJlbGF0ZWRQb3N0cy5sZW5ndGh9YCwgW3Bvc3QuaWRdKTsKICAgICAgcmVsYXRlZFBvc3RzID0gWy4uLnJlbGF0ZWRQb3N0cywgLi4ucmVjZW50UG9zdHNdLnNsaWNlKDAsIDMpOwogICAgfQoKICAgIHJlcy5yZW5kZXIoJ25ld3MtcG9zdCcsIHsKICAgICAgcGFnZVRpdGxlOiBgJHtwb3N0LnRpdGxlfSDigJQgU3RlbGxhIEJpc3Ryb2AsCiAgICAgIHNldHRpbmdzLAogICAgICBwb3N0LAogICAgICByZWxhdGVkUG9zdHMsCiAgICAgIHBhdGg6ICcvbmV3cycsCiAgICB9KTsKICB9IGNhdGNoIChlKSB7CiAgICBjb25zb2xlLmVycm9yKCdOZXdzIHBvc3QgZXJyb3I6JywgZSk7CiAgICByZXMuc3RhdHVzKDUwMCkuc2VuZCgnU2VydmVyIGVycm9yJyk7CiAgfQp9KTsKCm1vZHVsZS5leHBvcnRzID0gcm91dGVyOwo=
+const express = require('express');
+const router = express.Router();
+const { query, run } = require('../db/database');
+
+// Helper to get site settings as object
+function getSettings() {
+  const rows = query('SELECT key, value FROM site_settings');
+  const settings = {};
+  rows.forEach(r => settings[r.key] = r.value);
+  return settings;
+}
+
+// Helper to get opening hours
+function getHours() {
+  return query('SELECT * FROM opening_hours ORDER BY id');
+}
+
+// Helper to check if open now
+function isOpenNow(hours) {
+  const now = new Date();
+  const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  const today = days[now.getDay()];
+  const todayHours = hours.find(h => h.day_name === today);
+  if (!todayHours || todayHours.is_closed) return false;
+
+  const currentMinutes = now.getHours() * 60 + now.getMinutes();
+  const [openH, openM] = todayHours.open_time.split(':').map(Number);
+  const [closeH, closeM] = todayHours.close_time.split(':').map(Number);
+  const openMinutes = openH * 60 + openM;
+  let closeMinutes = closeH * 60 + closeM;
+
+  // Handle midnight cross
+  if (closeMinutes <= openMinutes) closeMinutes += 1440;
+
+  return currentMinutes >= openMinutes && currentMinutes < closeMinutes;
+}
+
+// Helper to compute display price
+function computeDisplayPrice(item) {
+  if (!item.discount_enabled) return item.base_price;
+  if (item.discount_type === 'percentage') {
+    return Math.max(1, Math.round(item.base_price * (1 - item.discount_value / 100) * 100) / 100);
+  }
+  if (item.discount_type === 'fixed') {
+    return Math.max(1, item.base_price - item.discount_value);
+  }
+  return item.base_price;
+}
+
+// Homepage
+router.get('/', (req, res) => {
+  try {
+    const settings = getSettings();
+    const hours = getHours();
+    const openNow = isOpenNow(hours);
+
+    const featured = query('SELECT * FROM menu_items WHERE is_featured = 1 AND visible = 1 LIMIT 4');
+    featured.forEach(item => {
+      item.display_price = computeDisplayPrice(item);
+      try { item.tags = JSON.parse(item.tags); } catch(e) { item.tags = []; }
+    });
+
+    const testimonials = query('SELECT * FROM testimonials WHERE visible = 1 ORDER BY created_at DESC LIMIT 5');
+
+    const upcomingEvents = query("SELECT * FROM events WHERE visible = 1 AND date >= date('now') ORDER BY date ASC LIMIT 3");
+
+    const newsPosts = query('SELECT * FROM news_posts WHERE published = 1 ORDER BY date DESC LIMIT 3');
+
+    const galleryImages = query('SELECT * FROM gallery_images ORDER BY display_order ASC, created_at DESC');
+
+    res.render('index', {
+      pageTitle: 'Stella Bistro — Karachi\'s Finest Bistro',
+      settings,
+      hours,
+      openNow,
+      featured,
+      testimonials,
+      upcomingEvents,
+      newsPosts,
+      galleryImages,
+      path: '/',
+    });
+  } catch (e) {
+    console.error('Homepage error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+// Menu page
+router.get('/menu', (req, res) => {
+  try {
+    const settings = getSettings();
+    const categories = query('SELECT * FROM categories WHERE visible = 1 ORDER BY display_order ASC');
+    const items = query('SELECT * FROM menu_items WHERE visible = 1 ORDER BY display_order ASC, id ASC');
+
+    items.forEach(item => {
+      item.display_price = computeDisplayPrice(item);
+      try { item.tags = JSON.parse(item.tags); } catch(e) { item.tags = []; }
+    });
+
+    // Group items by category
+    const menuData = categories.map(cat => ({
+      ...cat,
+      items: items.filter(item => item.category_id === cat.id),
+    }));
+
+    res.render('menu', {
+      pageTitle: 'Menu — Stella Bistro',
+      settings,
+      menuData,
+      path: '/menu',
+    });
+  } catch (e) {
+    console.error('Menu error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+// Checkout page
+router.get('/checkout', (req, res) => {
+  try {
+    const settings = getSettings();
+    // Get delivery cities
+    const citiesStr = settings.delivery_cities || 'Karachi';
+    const cities = citiesStr.split(',').map(c => c.trim()).filter(Boolean);
+
+    res.render('checkout', {
+      pageTitle: 'Checkout — Stella Bistro',
+      settings,
+      cities,
+      path: '/checkout',
+    });
+  } catch (e) {
+    console.error('Checkout error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+// Order confirmation
+router.get('/order-confirmation/:orderNumber', (req, res) => {
+  try {
+    const settings = getSettings();
+    const order = query('SELECT * FROM orders WHERE order_number = ?', [req.params.orderNumber]);
+
+    if (!order || order.length === 0) {
+      return res.status(404).render('NotFound', { pageTitle: 'Order Not Found', settings });
+    }
+
+    const o = order[0];
+    try { o.items = JSON.parse(o.items_json); } catch(e) { o.items = []; }
+
+    res.render('order-confirmation', {
+      pageTitle: `Order ${o.order_number} — Stella Bistro`,
+      settings,
+      order: o,
+      path: '/order-confirmation',
+    });
+  } catch (e) {
+    console.error('Order confirmation error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+// Events page
+router.get('/events', (req, res) => {
+  try {
+    const settings = getSettings();
+    const page = parseInt(req.query.page) || 1;
+    const perPage = 8;
+    const offset = (page - 1) * perPage;
+
+    const upcomingEvents = query("SELECT * FROM events WHERE visible = 1 AND date >= date('now') ORDER BY date ASC");
+    const totalUpcoming = upcomingEvents.length;
+    const paginatedEvents = upcomingEvents.slice(offset, offset + perPage);
+    const totalPages = Math.ceil(totalUpcoming / perPage) || 1;
+
+    const pastEvents = query("SELECT * FROM events WHERE visible = 1 AND date < date('now') ORDER BY date DESC LIMIT 10");
+
+    res.render('events', {
+      pageTitle: 'Events — Stella Bistro',
+      settings,
+      events: paginatedEvents,
+      pastEvents,
+      currentPage: page,
+      totalPages,
+      path: '/events',
+    });
+  } catch (e) {
+    console.error('Events error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+// News page
+router.get('/news', (req, res) => {
+  try {
+    const settings = getSettings();
+    const page = parseInt(req.query.page) || 1;
+    const perPage = 6;
+    const offset = (page - 1) * perPage;
+
+    const allPosts = query('SELECT * FROM news_posts WHERE published = 1 ORDER BY date DESC');
+    const totalPosts = allPosts.length;
+    const paginatedPosts = allPosts.slice(offset, offset + perPage);
+    const totalPages = Math.ceil(totalPosts / perPage);
+
+    res.render('news', {
+      pageTitle: 'News — Stella Bistro',
+      settings,
+      posts: paginatedPosts,
+      currentPage: page,
+      totalPages,
+      path: '/news',
+    });
+  } catch (e) {
+    console.error('News error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+// Individual news post
+router.get('/news/:slug', (req, res) => {
+  try {
+    const settings = getSettings();
+    const posts = query('SELECT * FROM news_posts WHERE slug = ? AND published = 1', [req.params.slug]);
+
+    if (!posts || posts.length === 0) {
+      return res.status(404).render('NotFound', { pageTitle: 'Post Not Found', settings });
+    }
+
+    const post = posts[0];
+
+    // Related posts
+    let relatedPosts = [];
+    if (post.category) {
+      relatedPosts = query('SELECT * FROM news_posts WHERE published = 1 AND category = ? AND id != ? ORDER BY date DESC LIMIT 3', [post.category, post.id]);
+    }
+    if (relatedPosts.length < 3) {
+      const recentPosts = query(`SELECT * FROM news_posts WHERE published = 1 AND id != ? ORDER BY date DESC LIMIT ${3 - relatedPosts.length}`, [post.id]);
+      relatedPosts = [...relatedPosts, ...recentPosts].slice(0, 3);
+    }
+
+    res.render('news-post', {
+      pageTitle: `${post.title} — Stella Bistro`,
+      settings,
+      post,
+      relatedPosts,
+      path: '/news',
+    });
+  } catch (e) {
+    console.error('News post error:', e);
+    res.status(500).send('Server error');
+  }
+});
+
+module.exports = router;
