@@ -1,1 +1,11 @@
-bm9kZV9tb2R1bGVzLwouZW52CiouZGIKcHVibGljL3VwbG9hZHMvZGlzaGVzLyoKcHVibGljL3VwbG9hZHMvZXZlbnRzLyoKcHVibGljL3VwbG9hZHMvbmV3cy8qCnB1YmxpYy91cGxvYWRzL2dhbGxlcnkvKgpwdWJsaWMvdXBsb2Fkcy9oZXJvLyoKcHVibGljL3VwbG9hZHMvYWJvdXQvKgpwdWJsaWMvdXBsb2Fkcy9wYXltZW50LyoKIXB1YmxpYy91cGxvYWRzLyoqLy5naXRrZWVwCg==
+node_modules/
+.env
+*.db
+public/uploads/dishes/*
+public/uploads/events/*
+public/uploads/news/*
+public/uploads/gallery/*
+public/uploads/hero/*
+public/uploads/about/*
+public/uploads/payment/*
+!public/uploads/**/.gitkeep
