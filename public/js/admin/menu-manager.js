@@ -1,1 +1,98 @@
-Ly8gU3RlbGxhIEJpc3RybyDigJQgTWVudSBNYW5hZ2VyIEphdmFTY3JpcHQKCi8vIFN0b3JlIGl0ZW1zIGRhdGEgZm9yIGVkaXRpbmcKbGV0IG1lbnVJdGVtcyA9IHt9OwoKZnVuY3Rpb24gZWRpdEl0ZW0oaXRlbUlkKSB7CiAgLy8gRmluZCB0aGUgZm9ybSBhbmQgcG9wdWxhdGUgaXQKICBjb25zdCByb3cgPSBkb2N1bWVudC5xdWVyeVNlbGVjdG9yKGBbZGF0YS1pZD0iJHtpdGVtSWR9Il1gKT8uY2xvc2VzdCgndHInKTsKICBpZiAoIXJvdykgcmV0dXJuOwoKICBjb25zdCBjZWxscyA9IHJvdy5xdWVyeVNlbGVjdG9yQWxsKCd0ZCcpOwogIGNvbnN0IG5hbWUgPSBjZWxsc1sxXT8udGV4dENvbnRlbnQ/LnRyaW0oKSB8fCAnJzsKICBjb25zdCBwcmljZSA9IGNlbGxzWzJdPy50ZXh0Q29udGVudD8ucmVwbGFjZSgnUnMuICcsICcnKT8udHJpbSgpIHx8ICcnOwogIGNvbnN0IHRhZ3MgPSBjZWxsc1s0XT8udGV4dENvbnRlbnQ/LnRyaW0oKSB8fCAnJzsKCiAgLy8gU2hvdyBhIHNpbXBsZSBwcm9tcHQtYmFzZWQgZWRpdCBmb3Igbm93CiAgY29uc3QgbmV3TmFtZSA9IHByb21wdCgnSXRlbSBuYW1lOicsIG5hbWUpOwogIGlmICghbmV3TmFtZSkgcmV0dXJuOwoKICBjb25zdCBuZXdQcmljZSA9IHByb21wdCgnQmFzZSBwcmljZSAoUEtSKTonLCBwcmljZSk7CiAgaWYgKCFuZXdQcmljZSkgcmV0dXJuOwoKICAvLyBTdWJtaXQgdmlhIGZvcm0KICBjb25zdCBmb3JtID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnZm9ybScpOwogIGZvcm0ubWV0aG9kID0gJ1BPU1QnOwogIGZvcm0uYWN0aW9uID0gYC9zdGVsbGEtY29udHJvbC9tZW51L2l0ZW0vdXBkYXRlLyR7aXRlbUlkfWA7CiAgZm9ybS5lbmN0eXBlID0gJ211bHRpcGFydC9mb3JtLWRhdGEnOwoKICBjb25zdCBmaWVsZHMgPSB7CiAgICBuYW1lOiBuZXdOYW1lLAogICAgYmFzZV9wcmljZTogbmV3UHJpY2UsCiAgICBvcmlnaW5hbF9wcmljZTogbmV3UHJpY2UsCiAgICBjYXRlZ29yeV9pZDogZG9jdW1lbnQucXVlcnlTZWxlY3RvcignW25hbWU9ImNhdGVnb3J5X2lkIl0nKT8udmFsdWUgfHwgJzEnLAogICAgZGVzY3JpcHRpb246ICcnLAogICAgZGlzY291bnRfZW5hYmxlZDogJzAnLAogICAgZGlzY291bnRfdHlwZTogJ3BlcmNlbnRhZ2UnLAogICAgZGlzY291bnRfdmFsdWU6ICcwJywKICAgIGtpdGNoZW5fbm90ZXM6ICcnLAogICAgZGlzcGxheV9vcmRlcjogJzAnLAogICAgdmlzaWJsZTogJzEnLAogICAgYXZhaWxhYmxlOiAnMScsCiAgICBpc19uZXc6ICcwJwogIH07CgogIE9iamVjdC5lbnRyaWVzKGZpZWxkcykuZm9yRWFjaCgoW2ssIHZdKSA9PiB7CiAgICBjb25zdCBpbnB1dCA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoJ2lucHV0Jyk7CiAgICBpbnB1dC50eXBlID0gJ2hpZGRlbic7CiAgICBpbnB1dC5uYW1lID0gazsKICAgIGlucHV0LnZhbHVlID0gdjsKICAgIGZvcm0uYXBwZW5kQ2hpbGQoaW5wdXQpOwogIH0pOwoKICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGZvcm0pOwogIGZvcm0uc3VibWl0KCk7Cn0KCmZ1bmN0aW9uIGNsb3NlRWRpdCgpIHsKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCcubW9kYWwnKS5mb3JFYWNoKG0gPT4gbS5zdHlsZS5kaXNwbGF5ID0gJ25vbmUnKTsKfQoKZnVuY3Rpb24gcHJldmlld0VkaXRJbWFnZShldmVudCkgewogIGNvbnN0IGZpbGUgPSBldmVudC50YXJnZXQuZmlsZXNbMF07CiAgaWYgKCFmaWxlKSByZXR1cm47CgogIGNvbnN0IHJlYWRlciA9IG5ldyBGaWxlUmVhZGVyKCk7CiAgcmVhZGVyLm9ubG9hZCA9IGZ1bmN0aW9uKGUpIHsKICAgIGNvbnN0IHByZXZpZXcgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnZWRpdEltYWdlUHJldmlldycpOwogICAgaWYgKHByZXZpZXcpIHsKICAgICAgcHJldmlldy5pbm5lckhUTUwgPSBgPGltZyBzcmM9IiR7ZS50YXJnZXQucmVzdWx0fSIgc3R5bGU9Im1heC13aWR0aDoyMDBweDttYXgtaGVpZ2h0OjEyMHB4O2JvcmRlci1yYWRpdXM6NHB4OyI+YDsKICAgIH0KICB9OwogIHJlYWRlci5yZWFkQXNEYXRhVVJMKGZpbGUpOwp9CgovLyBEcmFnIGFuZCBkcm9wIHN1cHBvcnQgZm9yIHVwbG9hZCB6b25lcwpkb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKCdET01Db250ZW50TG9hZGVkJywgKCkgPT4gewogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5pbWFnZS11cGxvYWQtem9uZScpLmZvckVhY2goem9uZSA9PiB7CiAgICB6b25lLmFkZEV2ZW50TGlzdGVuZXIoJ2RyYWdvdmVyJywgKGUpID0+IHsKICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgICB6b25lLnN0eWxlLmJvcmRlckNvbG9yID0gJ3ZhcigtLWdvbGQpJzsKICAgIH0pOwogICAgem9uZS5hZGRFdmVudExpc3RlbmVyKCdkcmFnbGVhdmUnLCAoKSA9PiB7CiAgICAgIHpvbmUuc3R5bGUuYm9yZGVyQ29sb3IgPSAnJzsKICAgIH0pOwogICAgem9uZS5hZGRFdmVudExpc3RlbmVyKCdkcm9wJywgKGUpID0+IHsKICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgICB6b25lLnN0eWxlLmJvcmRlckNvbG9yID0gJyc7CiAgICAgIGNvbnN0IGZpbGVzID0gZS5kYXRhVHJhbnNmZXIuZmlsZXM7CiAgICAgIGlmIChmaWxlcy5sZW5ndGggPiAwKSB7CiAgICAgICAgY29uc3QgaW5wdXQgPSB6b25lLm5leHRFbGVtZW50U2libGluZz8ucXVlcnlTZWxlY3RvcignaW5wdXRbdHlwZT0iZmlsZSJdJykgfHwgem9uZS5xdWVyeVNlbGVjdG9yKCdpbnB1dFt0eXBlPSJmaWxlIl0nKTsKICAgICAgICBpZiAoaW5wdXQpIHsKICAgICAgICAgIGlucHV0LmZpbGVzID0gZmlsZXM7CiAgICAgICAgICBpbnB1dC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnY2hhbmdlJykpOwogICAgICAgIH0KICAgICAgfQogICAgfSk7CiAgfSk7Cn0pOwo=
+// Stella Bistro — Menu Manager JavaScript
+
+// Store items data for editing
+let menuItems = {};
+
+function editItem(itemId) {
+  // Find the form and populate it
+  const row = document.querySelector(`[data-id="${itemId}"]`)?.closest('tr');
+  if (!row) return;
+
+  const cells = row.querySelectorAll('td');
+  const name = cells[1]?.textContent?.trim() || '';
+  const price = cells[2]?.textContent?.replace('Rs. ', '')?.trim() || '';
+  const tags = cells[4]?.textContent?.trim() || '';
+
+  // Show a simple prompt-based edit for now
+  const newName = prompt('Item name:', name);
+  if (!newName) return;
+
+  const newPrice = prompt('Base price (PKR):', price);
+  if (!newPrice) return;
+
+  // Submit via form
+  const form = document.createElement('form');
+  form.method = 'POST';
+  form.action = `/stella-control/menu/item/update/${itemId}`;
+  form.enctype = 'multipart/form-data';
+
+  const fields = {
+    name: newName,
+    base_price: newPrice,
+    original_price: newPrice,
+    category_id: document.querySelector('[name="category_id"]')?.value || '1',
+    description: '',
+    discount_enabled: '0',
+    discount_type: 'percentage',
+    discount_value: '0',
+    kitchen_notes: '',
+    display_order: '0',
+    visible: '1',
+    available: '1',
+    is_new: '0'
+  };
+
+  Object.entries(fields).forEach(([k, v]) => {
+    const input = document.createElement('input');
+    input.type = 'hidden';
+    input.name = k;
+    input.value = v;
+    form.appendChild(input);
+  });
+
+  document.body.appendChild(form);
+  form.submit();
+}
+
+function closeEdit() {
+  document.querySelectorAll('.modal').forEach(m => m.style.display = 'none');
+}
+
+function previewEditImage(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+
+  const reader = new FileReader();
+  reader.onload = function(e) {
+    const preview = document.getElementById('editImagePreview');
+    if (preview) {
+      preview.innerHTML = `<img src="${e.target.result}" style="max-width:200px;max-height:120px;border-radius:4px;">`;
+    }
+  };
+  reader.readAsDataURL(file);
+}
+
+// Drag and drop support for upload zones
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.image-upload-zone').forEach(zone => {
+    zone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      zone.style.borderColor = 'var(--gold)';
+    });
+    zone.addEventListener('dragleave', () => {
+      zone.style.borderColor = '';
+    });
+    zone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      zone.style.borderColor = '';
+      const files = e.dataTransfer.files;
+      if (files.length > 0) {
+        const input = zone.nextElementSibling?.querySelector('input[type="file"]') || zone.querySelector('input[type="file"]');
+        if (input) {
+          input.files = files;
+          input.dispatchEvent(new Event('change'));
+        }
+      }
+    });
+  });
+});
