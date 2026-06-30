@@ -1,1 +1,59 @@
-Ly8gU3RlbGxhIEJpc3RybyDigJQgSW1hZ2UgVXBsb2FkIENvbXBvbmVudCAoc2hhcmVkIGFjcm9zcyBhZG1pbikKCmZ1bmN0aW9uIGluaXRJbWFnZVVwbG9hZCh6b25lU2VsZWN0b3IsIGlucHV0U2VsZWN0b3IpIHsKICBjb25zdCB6b25lcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoem9uZVNlbGVjdG9yIHx8ICcuaW1hZ2UtdXBsb2FkLXpvbmUnKTsKICAKICB6b25lcy5mb3JFYWNoKHpvbmUgPT4gewogICAgY29uc3QgaW5wdXQgPSB6b25lLnF1ZXJ5U2VsZWN0b3IoJ2lucHV0W3R5cGU9ImZpbGUiXScpIHx8IAogICAgICAgICAgICAgICAgIHpvbmUucGFyZW50RWxlbWVudC5xdWVyeVNlbGVjdG9yKGlucHV0U2VsZWN0b3IgfHwgJ2lucHV0W3R5cGU9ImZpbGUiXScpIHx8CiAgICAgICAgICAgICAgICAgem9uZS5uZXh0RWxlbWVudFNpYmxpbmc/LnF1ZXJ5U2VsZWN0b3IoJ2lucHV0W3R5cGU9ImZpbGUiXScpOwoKICAgIGlmICghaW5wdXQpIHJldHVybjsKCiAgICAvLyBDbGljayB0byB1cGxvYWQKICAgIHpvbmUuYWRkRXZlbnRMaXN0ZW5lcignY2xpY2snLCAoKSA9PiBpbnB1dC5jbGljaygpKTsKCiAgICAvLyBQcmV2aWV3IG9uIGNoYW5nZQogICAgaW5wdXQuYWRkRXZlbnRMaXN0ZW5lcignY2hhbmdlJywgKCkgPT4gewogICAgICBjb25zdCBmaWxlID0gaW5wdXQuZmlsZXNbMF07CiAgICAgIGlmICghZmlsZSkgcmV0dXJuOwogICAgICAKICAgICAgY29uc3QgcmVhZGVyID0gbmV3IEZpbGVSZWFkZXIoKTsKICAgICAgcmVhZGVyLm9ubG9hZCA9IChlKSA9PiB7CiAgICAgICAgem9uZS5pbm5lckhUTUwgPSBgPGltZyBzcmM9IiR7ZS50YXJnZXQucmVzdWx0fSIgYWx0PSJQcmV2aWV3IiBzdHlsZT0ibWF4LXdpZHRoOjIwMHB4O21heC1oZWlnaHQ6MTIwcHg7Ym9yZGVyLXJhZGl1czo0cHg7b2JqZWN0LWZpdDpjb3ZlcjsiPmA7CiAgICAgICAgem9uZS5zdHlsZS5ib3JkZXIgPSAnbm9uZSc7CiAgICAgICAgem9uZS5zdHlsZS5wYWRkaW5nID0gJzAnOwogICAgICB9OwogICAgICByZWFkZXIucmVhZEFzRGF0YVVSTChmaWxlKTsKICAgIH0pOwoKICAgIC8vIERyYWcgYW5kIGRyb3AKICAgIHpvbmUuYWRkRXZlbnRMaXN0ZW5lcignZHJhZ292ZXInLCAoZSkgPT4gewogICAgICBlLnByZXZlbnREZWZhdWx0KCk7CiAgICAgIHpvbmUuc3R5bGUuYm9yZGVyQ29sb3IgPSAndmFyKC0tZ29sZCknOwogICAgICB6b25lLnN0eWxlLmJhY2tncm91bmQgPSAncmdiYSgyMDEsMTY4LDc2LDAuMDUpJzsKICAgIH0pOwoKICAgIHpvbmUuYWRkRXZlbnRMaXN0ZW5lcignZHJhZ2xlYXZlJywgKCkgPT4gewogICAgICB6b25lLnN0eWxlLmJvcmRlckNvbG9yID0gJyc7CiAgICAgIHpvbmUuc3R5bGUuYmFja2dyb3VuZCA9ICcnOwogICAgfSk7CgogICAgem9uZS5hZGRFdmVudExpc3RlbmVyKCdkcm9wJywgKGUpID0+IHsKICAgICAgZS5wcmV2ZW50RGVmYXVsdCgpOwogICAgICB6b25lLnN0eWxlLmJvcmRlckNvbG9yID0gJyc7CiAgICAgIHpvbmUuc3R5bGUuYmFja2dyb3VuZCA9ICcnOwogICAgICAKICAgICAgY29uc3QgZmlsZSA9IGUuZGF0YVRyYW5zZmVyLmZpbGVzWzBdOwogICAgICBpZiAoZmlsZSAmJiBmaWxlLnR5cGUubWF0Y2goL2ltYWdlXC8oanBlZ3xwbmd8d2VicCkvKSkgewogICAgICAgIGlucHV0LmZpbGVzID0gZS5kYXRhVHJhbnNmZXIuZmlsZXM7CiAgICAgICAgaW5wdXQuZGlzcGF0Y2hFdmVudChuZXcgRXZlbnQoJ2NoYW5nZScpKTsKICAgICAgfQogICAgfSk7CiAgfSk7Cn0KCi8vIEF1dG8taW5pdCBvbiBET00gcmVhZHkKZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcignRE9NQ29udGVudExvYWRlZCcsICgpID0+IHsKICBpbml0SW1hZ2VVcGxvYWQoKTsKfSk7Cg==
+// Stella Bistro — Image Upload Component (shared across admin)
+
+function initImageUpload(zoneSelector, inputSelector) {
+  const zones = document.querySelectorAll(zoneSelector || '.image-upload-zone');
+  
+  zones.forEach(zone => {
+    const input = zone.querySelector('input[type="file"]') || 
+                 zone.parentElement.querySelector(inputSelector || 'input[type="file"]') ||
+                 zone.nextElementSibling?.querySelector('input[type="file"]');
+
+    if (!input) return;
+
+    // Click to upload
+    zone.addEventListener('click', () => input.click());
+
+    // Preview on change
+    input.addEventListener('change', () => {
+      const file = input.files[0];
+      if (!file) return;
+      
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        zone.innerHTML = `<img src="${e.target.result}" alt="Preview" style="max-width:200px;max-height:120px;border-radius:4px;object-fit:cover;">`;
+        zone.style.border = 'none';
+        zone.style.padding = '0';
+      };
+      reader.readAsDataURL(file);
+    });
+
+    // Drag and drop
+    zone.addEventListener('dragover', (e) => {
+      e.preventDefault();
+      zone.style.borderColor = 'var(--gold)';
+      zone.style.background = 'rgba(201,168,76,0.05)';
+    });
+
+    zone.addEventListener('dragleave', () => {
+      zone.style.borderColor = '';
+      zone.style.background = '';
+    });
+
+    zone.addEventListener('drop', (e) => {
+      e.preventDefault();
+      zone.style.borderColor = '';
+      zone.style.background = '';
+      
+      const file = e.dataTransfer.files[0];
+      if (file && file.type.match(/image\/(jpeg|png|webp)/)) {
+        input.files = e.dataTransfer.files;
+        input.dispatchEvent(new Event('change'));
+      }
+    });
+  });
+}
+
+// Auto-init on DOM ready
+document.addEventListener('DOMContentLoaded', () => {
+  initImageUpload();
+});
