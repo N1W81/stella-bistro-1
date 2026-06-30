@@ -1,1 +1,80 @@
-Ly8gU3RlbGxhIEJpc3RybyDigJQgT3JkZXIgQ29uZmlybWF0aW9uIEphdmFTY3JpcHQKCmRvY3VtZW50LmFkZEV2ZW50TGlzdGVuZXIoJ0RPTUNvbnRlbnRMb2FkZWQnLCAoKSA9PiB7CiAgY29uc3Qgc3RhdHVzVHJhY2tlciA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5zdGF0dXMtdHJhY2tlcicpOwogIGlmICghc3RhdHVzVHJhY2tlcikgcmV0dXJuOwoKICBjb25zdCBvcmRlck51bWJlciA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJy5jb25maXJtYXRpb24tcGFnZV9fb3JkZXItbnVtYmVyIC5tb25vJyk7CiAgaWYgKCFvcmRlck51bWJlcikgcmV0dXJuOwoKICBjb25zdCBudW0gPSBvcmRlck51bWJlci50ZXh0Q29udGVudC5yZXBsYWNlKCcjJywgJycpLnRyaW0oKTsKICBjb25zdCBjdXJyZW50U3RhdHVzRWwgPSBkb2N1bWVudC5nZXRFbGVtZW50QnlJZCgnY3VycmVudFN0YXR1cycpOwogIGNvbnN0IHN0ZXBzID0gewogICAgJ3BlbmRpbmcnOiAncGxhY2VkJywKICAgICdpbl9wcm9ncmVzcyc6ICdjb25maXJtZWQnLAogICAgJ2NvbXBsZXRlZCc6ICdkZWxpdmVyZWQnLAogICAgJ2NhbmNlbGxlZCc6ICdjYW5jZWxsZWQnCiAgfTsKICBjb25zdCBzdGF0dXNMYWJlbHMgPSB7CiAgICAncGxhY2VkJzogJ1BsYWNlZCDinJMnLAogICAgJ2NvbmZpcm1lZCc6ICdDb25maXJtZWQnLAogICAgJ291dF9mb3JfZGVsaXZlcnknOiAnT3V0IGZvciBEZWxpdmVyeScsCiAgICAnZGVsaXZlcmVkJzogJ0RlbGl2ZXJlZCcKICB9OwoKICBmdW5jdGlvbiB1cGRhdGVUcmFja2VyKHN0YXR1cykgewogICAgY29uc3Qgc3RlcEtleSA9IHN0ZXBzW3N0YXR1c10gfHwgJ3BsYWNlZCc7CiAgICBjb25zdCBhbGxTdGVwcyA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5zdGF0dXMtc3RlcCcpOwogICAgbGV0IGFjdGl2ZSA9IGZhbHNlOwoKICAgIGFsbFN0ZXBzLmZvckVhY2goc3RlcCA9PiB7CiAgICAgIGNvbnN0IHMgPSBzdGVwLmRhdGFzZXQuc3RhdHVzOwogICAgICBpZiAocyA9PT0gc3RlcEtleSkgYWN0aXZlID0gdHJ1ZTsKICAgICAgaWYgKGFjdGl2ZSkgewogICAgICAgIHN0ZXAuY2xhc3NMaXN0LmFkZCgnc3RhdHVzLXN0ZXAtLWFjdGl2ZScpOwogICAgICB9IGVsc2UgewogICAgICAgIHN0ZXAuY2xhc3NMaXN0LnJlbW92ZSgnc3RhdHVzLXN0ZXAtLWFjdGl2ZScpOwogICAgICB9CiAgICB9KTsKCiAgICBpZiAoY3VycmVudFN0YXR1c0VsKSB7CiAgICAgIGN1cnJlbnRTdGF0dXNFbC50ZXh0Q29udGVudCA9IGBTdGF0dXM6ICR7c3RhdHVzTGFiZWxzW3N0ZXBLZXldIHx8IHN0YXR1c31gOwogICAgfQogIH0KCiAgLy8gSW5pdGlhbCB1cGRhdGUKICBjb25zdCBpbml0aWFsU3RhdHVzID0gZG9jdW1lbnQucXVlcnlTZWxlY3RvcignLnN0YXR1cy1zdGVwLS1hY3RpdmUnKT8uZGF0YXNldD8uc3RhdHVzIHx8ICdwbGFjZWQnOwogIHVwZGF0ZVRyYWNrZXIoaW5pdGlhbFN0YXR1cyk7CgogIC8vIFJlY2hlY2sgc2luY2Ugc3RhdHVzIG1pZ2h0IGRpZmZlciBmcm9tIHdoYXQgd2FzIHJlbmRlcmVkCiAgZmV0Y2goYC9hcGkvb3JkZXJzLyR7bnVtfS9zdGF0dXNgKQogICAgLnRoZW4ociA9PiByLmpzb24oKSkKICAgIC50aGVuKGRhdGEgPT4gewogICAgICBpZiAoZGF0YS5zdGF0dXMpIHsKICAgICAgICB1cGRhdGVUcmFja2VyKGRhdGEuc3RhdHVzKTsKICAgICAgfQogICAgfSkKICAgIC5jYXRjaCgoKSA9PiB7fSk7CgogIC8vIFBvbGwgZXZlcnkgMjAgc2Vjb25kcwogIGNvbnN0IHBvbGxJbnRlcnZhbCA9IHNldEludGVydmFsKCgpID0+IHsKICAgIGZldGNoKGAvYXBpL29yZGVycy8ke251bX0vc3RhdHVzYCkKICAgICAgLnRoZW4ociA9PiByLmpzb24oKSkKICAgICAgLnRoZW4oZGF0YSA9PiB7CiAgICAgICAgaWYgKGRhdGEuc3RhdHVzKSB7CiAgICAgICAgICB1cGRhdGVUcmFja2VyKGRhdGEuc3RhdHVzKTsKICAgICAgICAgIGlmIChkYXRhLnN0YXR1cyA9PT0gJ2NvbXBsZXRlZCcgfHwgZGF0YS5zdGF0dXMgPT09ICdjYW5jZWxsZWQnKSB7CiAgICAgICAgICAgIGNsZWFySW50ZXJ2YWwocG9sbEludGVydmFsKTsKICAgICAgICAgIH0KICAgICAgICB9CiAgICAgIH0pCiAgICAgIC5jYXRjaCgoKSA9PiB7fSk7CiAgfSwgMjAwMDApOwp9KTsKCmZ1bmN0aW9uIHRvZ2dsZUl0ZW1zKCkgewogIGNvbnN0IGVsID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ29yZGVySXRlbXMnKTsKICBpZiAoZWwpIHsKICAgIGVsLnN0eWxlLmRpc3BsYXkgPSBlbC5zdHlsZS5kaXNwbGF5ID09PSAnbm9uZScgPyAnYmxvY2snIDogJ25vbmUnOwogIH0KfQo=
+// Stella Bistro — Order Confirmation JavaScript
+
+document.addEventListener('DOMContentLoaded', () => {
+  const statusTracker = document.querySelector('.status-tracker');
+  if (!statusTracker) return;
+
+  const orderNumber = document.querySelector('.confirmation-page__order-number .mono');
+  if (!orderNumber) return;
+
+  const num = orderNumber.textContent.replace('#', '').trim();
+  const currentStatusEl = document.getElementById('currentStatus');
+  const steps = {
+    'pending': 'placed',
+    'in_progress': 'confirmed',
+    'completed': 'delivered',
+    'cancelled': 'cancelled'
+  };
+  const statusLabels = {
+    'placed': 'Placed ✓',
+    'confirmed': 'Confirmed',
+    'out_for_delivery': 'Out for Delivery',
+    'delivered': 'Delivered'
+  };
+
+  function updateTracker(status) {
+    const stepKey = steps[status] || 'placed';
+    const allSteps = document.querySelectorAll('.status-step');
+    let active = false;
+
+    allSteps.forEach(step => {
+      const s = step.dataset.status;
+      if (s === stepKey) active = true;
+      if (active) {
+        step.classList.add('status-step--active');
+      } else {
+        step.classList.remove('status-step--active');
+      }
+    });
+
+    if (currentStatusEl) {
+      currentStatusEl.textContent = `Status: ${statusLabels[stepKey] || status}`;
+    }
+  }
+
+  // Initial update
+  const initialStatus = document.querySelector('.status-step--active')?.dataset?.status || 'placed';
+  updateTracker(initialStatus);
+
+  // Recheck since status might differ from what was rendered
+  fetch(`/api/orders/${num}/status`)
+    .then(r => r.json())
+    .then(data => {
+      if (data.status) {
+        updateTracker(data.status);
+      }
+    })
+    .catch(() => {});
+
+  // Poll every 20 seconds
+  const pollInterval = setInterval(() => {
+    fetch(`/api/orders/${num}/status`)
+      .then(r => r.json())
+      .then(data => {
+        if (data.status) {
+          updateTracker(data.status);
+          if (data.status === 'completed' || data.status === 'cancelled') {
+            clearInterval(pollInterval);
+          }
+        }
+      })
+      .catch(() => {});
+  }, 20000);
+});
+
+function toggleItems() {
+  const el = document.getElementById('orderItems');
+  if (el) {
+    el.style.display = el.style.display === 'none' ? 'block' : 'none';
+  }
+}
